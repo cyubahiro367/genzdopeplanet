@@ -1,172 +1,3539 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-US" class="cmsmasters_html">
 
-        <title>Laravel</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="profile" href="//gmpg.org/xfn/11" />
+    <link rel="pingback" href="https://eco-press.cmsmasters.net/xmlrpc.php" />
+    <title>Eco Press &#8211; Just another WordPress site</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Eco Press &raquo; Feed" href="https://eco-press.cmsmasters.net/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Eco Press &raquo; Comments Feed" href="https://eco-press.cmsmasters.net/comments/feed/" />
+    <link rel="alternate" type="text/calendar" title="Eco Press &raquo; iCal Feed" href="https://eco-press.cmsmasters.net/events/?ical=1" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/eco-press.cmsmasters.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
 
-        <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.-left-20{left:-5rem}.top-0{top:0px}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-mx-3{margin-left:-0.75rem;margin-right:-0.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-\[calc\(100\%\+8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.max-w-\[877px\]{max-width:877px}.max-w-2xl{max-width:42rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.bg-\[\#FF2D20\]\/10{background-color:rgb(255 45 32 / 0.1)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to:rgb(255 255 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to:#fff var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#FF2D20}.object-cover{object-fit:cover}.object-top{object-position:top}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pt-3{padding-top:0.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:0.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\2c 0\2c 0\2c 0\.08\)\]{--tw-shadow:0px 14px 34px 0px rgba(0,0,0,0.08);--tw-shadow-colored:0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-transparent{--tw-ring-color:transparent}.ring-white\/\[0\.05\]{--tw-ring-color:rgb(255 255 255 / 0.05)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.06\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.25\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.hover\:text-black\/70:hover{color:rgb(0 0 0 / 0.7)}.hover\:ring-black\/20:hover{--tw-ring-color:rgb(0 0 0 / 0.2)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}@media (min-width: 640px){.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0px}.lg\:text-\[\#FF2D20\]{--tw-text-opacity:1;color:rgb(255 45 32 / var(--tw-text-opacity))}}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.dark\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}.dark\:via-zinc-900{--tw-gradient-to:rgb(24 24 27 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to:#18181b var(--tw-gradient-to-position)}.dark\:text-white\/50{color:rgb(255 255 255 / 0.5)}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-white\/70{color:rgb(255 255 255 / 0.7)}.dark\:ring-zinc-800{--tw-ring-opacity:1;--tw-ring-color:rgb(39 39 42 / var(--tw-ring-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:text-white\/70:hover{color:rgb(255 255 255 / 0.7)}.dark\:hover\:text-white\/80:hover{color:rgb(255 255 255 / 0.8)}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity:1;--tw-ring-color:rgb(63 63 70 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255 / var(--tw-ring-opacity))}}
-        </style>
-    </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-            <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" />
-            <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
-                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
-                        <div class="flex lg:justify-center lg:col-start-2">
-                            <svg class="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]" viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="currentColor"/></svg>
-                        </div>
-                        @if (Route::has('login'))
-                            <nav class="-mx-3 flex flex-1 justify-end">
-                                @auth
-                                    <a
-                                        href="{{ url('/dashboard') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Dashboard
-                                    </a>
-                                @else
-                                    <a
-                                        href="{{ route('login') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Log in
-                                    </a>
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
 
-                                    @if (Route::has('register'))
-                                        <a
-                                            href="{{ route('register') }}"
-                                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                        >
-                                            Register
-                                        </a>
-                                    @endif
-                                @endauth
-                            </nav>
-                        @endif
-                    </header>
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
 
-                    <main class="mt-6">
-                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
-                            <a
-                                href="https://laravel.com/docs"
-                                id="docs-card"
-                                class="flex flex-col items-start gap-6 overflow-hidden rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] md:row-span-3 lg:p-10 lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div id="screenshot-container" class="relative flex w-full flex-1 items-stretch">
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-light.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.06)] dark:hidden"
-                                        onerror="
-                                            document.getElementById('screenshot-container').classList.add('!hidden');
-                                            document.getElementById('docs-card').classList.add('!row-span-1');
-                                            document.getElementById('docs-card-content').classList.add('!flex-row');
-                                            document.getElementById('background').classList.add('!hidden');
-                                        "
-                                    />
-                                    <img
-                                        src="https://laravel.com/assets/img/welcome/docs-dark.svg"
-                                        alt="Laravel documentation screenshot"
-                                        class="hidden aspect-video h-full w-full flex-1 rounded-[10px] object-top object-cover drop-shadow-[0px_4px_34px_rgba(0,0,0,0.25)] dark:block"
-                                    />
-                                    <div
-                                        class="absolute -bottom-16 -left-16 h-40 w-[calc(100%+8rem)] bg-gradient-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
-                                    ></div>
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+        /* ]]> */
+    </script>
+    <link rel='stylesheet' id='layerslider-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.9.10' type='text/css' media='all' />
+    <link rel='stylesheet' id='ls-user-css' href='https://eco-press.cmsmasters.net/wp-content/uploads/layerslider.custom.css?ver=1466407437' type='text/css' media='all' />
+    <link rel='stylesheet' id='ls-google-fonts-css' href='https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CIndie+Flower:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COswald:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='tribe-events-pro-mini-calendar-block-styles-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-mini-calendar-block.min.css?ver=6.3.1' type='text/css' media='all'
+    />
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://eco-press.cmsmasters.net/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--color--color-1: #000000;
+            --wp--preset--color--color-2: #ffffff;
+            --wp--preset--color--color-3: #717171;
+            --wp--preset--color--color-4: #53d572;
+            --wp--preset--color--color-5: #46c965;
+            --wp--preset--color--color-6: #343434;
+            --wp--preset--color--color-7: #f8f8f8;
+            --wp--preset--color--color-8: #dfdfdf;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='cookie-law-info-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.2.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.2.0' type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='theme-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/style.css?ver=1.0.0' type='text/css' media='screen, print' />
+    <link rel='stylesheet' id='theme-design-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/style.css?ver=1.0.0' type='text/css' media='screen, print' />
+    <link rel='stylesheet' id='theme-adapt-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/adaptive.css?ver=1.0.0' type='text/css' media='screen, print' />
+    <link rel='stylesheet' id='theme-retina-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/retina.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-icons-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/fontello.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-icons-custom-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/fontello-custom.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='animate-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/animate.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-cmsmasters-donations-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/cmsmasters-donations/css/cmsmasters-donations-style.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-cmsmasters-donations-adaptive-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/cmsmasters-donations/css/cmsmasters-donations-adaptive.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-cmsmasters-woo-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/cmsmasters-woo-style.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-cmsmasters-woo-adaptive-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/cmsmasters-woo-adaptive.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-cmsmasters-events-v2-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/cmsmasters-events-v2-style.css?ver=1.0.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='ilightbox-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/ilightbox.css?ver=2.2.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='ilightbox-skin-dark-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/ilightbox-skins/dark-skin.css?ver=2.2.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='theme-fonts-schemes-css' href='https://eco-press.cmsmasters.net/wp-content/uploads/cmsmasters_styles/eco-press.css?ver=1.0.0' type='text/css' media='screen' />
+    <!--[if lte IE 9]>
+<link rel='stylesheet' id='theme-fonts-css' href='https://eco-press.cmsmasters.net/wp-content/uploads/cmsmasters_styles/eco-press_fonts.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+    <!--[if lte IE 9]>
+<link rel='stylesheet' id='theme-schemes-primary-css' href='https://eco-press.cmsmasters.net/wp-content/uploads/cmsmasters_styles/eco-press_colors_primary.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+    <!--[if lte IE 9]>
+<link rel='stylesheet' id='theme-schemes-secondary-css' href='https://eco-press.cmsmasters.net/wp-content/uploads/cmsmasters_styles/eco-press_colors_secondary.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+    <!--[if lt IE 9]>
+<link rel='stylesheet' id='theme-ie-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/css/ie.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+    <link rel='stylesheet' id='google-fonts-css' href='//fonts.googleapis.com/css?family=Lato%3A400%2C400italic%2C700%2C700italic&#038;ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='eco-press-gutenberg-frontend-style-css' href='https://eco-press.cmsmasters.net/wp-content/themes/eco-press/gutenberg/css/frontend-style.css?ver=1.1.4' type='text/css' media='screen' />
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <script type="text/javascript" id="layerslider-utils-js-extra">
+        /* <![CDATA[ */
+        var LS_Meta = {
+            "v": "7.9.10",
+            "fixGSAP": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.9.10" id="layerslider-utils-js"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.9.10" id="layerslider-js"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.9.10" id="layerslider-transitions-js"></script>
+    <script type="text/javascript" id="cookie-law-info-js-extra">
+        /* <![CDATA[ */
+        var Cli_Data = {
+            "nn_cookie_ids": [],
+            "cookielist": [],
+            "non_necessary_cookies": [],
+            "ccpaEnabled": "",
+            "ccpaRegionBased": "",
+            "ccpaBarEnabled": "",
+            "strictlyEnabled": ["necessary", "obligatoire"],
+            "ccpaType": "gdpr",
+            "js_blocking": "",
+            "custom_integration": "",
+            "triggerDomRefresh": "",
+            "secure_cookies": ""
+        };
+        var cli_cookiebar_settings = {
+            "animate_speed_hide": "500",
+            "animate_speed_show": "500",
+            "background": "#FFF",
+            "border": "#b1a6a6c2",
+            "border_on": "",
+            "button_1_button_colour": "#000",
+            "button_1_button_hover": "#000000",
+            "button_1_link_colour": "#fff",
+            "button_1_as_button": "1",
+            "button_1_new_win": "",
+            "button_2_button_colour": "#333",
+            "button_2_button_hover": "#292929",
+            "button_2_link_colour": "#444",
+            "button_2_as_button": "",
+            "button_2_hidebar": "",
+            "button_3_button_colour": "#000",
+            "button_3_button_hover": "#000000",
+            "button_3_link_colour": "#fff",
+            "button_3_as_button": "1",
+            "button_3_new_win": "",
+            "button_4_button_colour": "#000",
+            "button_4_button_hover": "#000000",
+            "button_4_link_colour": "#fff",
+            "button_4_as_button": "1",
+            "button_7_button_colour": "#61a229",
+            "button_7_button_hover": "#4e8221",
+            "button_7_link_colour": "#fff",
+            "button_7_as_button": "1",
+            "button_7_new_win": "",
+            "font_family": "inherit",
+            "header_fix": "",
+            "notify_animate_hide": "1",
+            "notify_animate_show": "",
+            "notify_div_id": "#cookie-law-info-bar",
+            "notify_position_horizontal": "right",
+            "notify_position_vertical": "bottom",
+            "scroll_close": "",
+            "scroll_close_reload": "",
+            "accept_close_reload": "",
+            "reject_close_reload": "",
+            "showagain_tab": "",
+            "showagain_background": "#fff",
+            "showagain_border": "#000",
+            "showagain_div_id": "#cookie-law-info-again",
+            "showagain_x_position": "100px",
+            "text": "#000",
+            "show_once_yn": "",
+            "show_once": "10000",
+            "logging_on": "",
+            "as_popup": "",
+            "popup_overlay": "1",
+            "bar_heading_text": "",
+            "cookie_bar_as": "banner",
+            "popup_showagain_position": "bottom-right",
+            "widget_position": "left"
+        };
+        var log_object = {
+            "ajax_url": "https:\/\/eco-press.cmsmasters.net\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.2.0" id="cookie-law-info-js"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.6.1" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/eco-press.cmsmasters.net\/cart-2\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.6.1" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.6.1" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.6.1" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jsLibraries.min.js?ver=1.0.0" id="libs-js"></script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jquery.iLightBox.min.js?ver=2.2.0" id="iLightBox-js"></script>
+    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_757899444cb28dfbb1582bc198d9ffdc",
+            "fragment_name": "wc_fragments_757899444cb28dfbb1582bc198d9ffdc",
+            "request_timeout": "5000"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.6.1" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script>
+    <meta name="generator" content="Powered by LayerSlider 7.9.10 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress." />
+    <!-- LayerSlider updates and docs at: https://layerslider.com -->
+    <link rel="https://api.w.org/" href="https://eco-press.cmsmasters.net/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://eco-press.cmsmasters.net/wp-json/wp/v2/pages/7366" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eco-press.cmsmasters.net/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.4.3" />
+    <meta name="generator" content="WooCommerce 8.6.1" />
+    <link rel="canonical" href="https://eco-press.cmsmasters.net/" />
+    <link rel='shortlink' href='https://eco-press.cmsmasters.net/' />
+    <link rel="alternate" type="application/json+oembed" href="https://eco-press.cmsmasters.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco-press.cmsmasters.net%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://eco-press.cmsmasters.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco-press.cmsmasters.net%2F&#038;format=xml" />
+    <meta name="tec-api-version" content="v1">
+    <meta name="tec-api-origin" content="https://eco-press.cmsmasters.net">
+    <link rel="alternate" href="https://eco-press.cmsmasters.net/wp-json/tribe/events/v1/" />
+    <style type="text/css">
+        .header_top {
+            height: 34px;
+        }
+
+        .header_mid {
+            height: 98px;
+        }
+
+        .header_bot {
+            height: 50px;
+        }
+
+        #page.cmsmasters_heading_after_header #middle,
+        #page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+            padding-top: 98px;
+        }
+
+        #page.cmsmasters_heading_after_header.enable_header_top #middle,
+        #page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer {
+            padding-top: 132px;
+        }
+
+        #page.cmsmasters_heading_after_header.enable_header_bottom #middle,
+        #page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer {
+            padding-top: 148px;
+        }
+
+        #page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle,
+        #page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+            padding-top: 182px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .header_top,
+            .header_mid,
+            .header_bot {
+                height: auto;
+            }
+            .header_mid .header_mid_inner>div {
+                height: 98px;
+            }
+            .header_bot .header_bot_inner>div {
+                height: 50px;
+            }
+            #page.cmsmasters_heading_after_header #middle,
+            #page.cmsmasters_heading_under_header #middle .headline .headline_outer,
+            #page.cmsmasters_heading_after_header.enable_header_top #middle,
+            #page.cmsmasters_heading_under_header.enable_header_top #middle .headline .headline_outer,
+            #page.cmsmasters_heading_after_header.enable_header_bottom #middle,
+            #page.cmsmasters_heading_under_header.enable_header_bottom #middle .headline .headline_outer,
+            #page.cmsmasters_heading_after_header.enable_header_top.enable_header_bottom #middle,
+            #page.cmsmasters_heading_under_header.enable_header_top.enable_header_bottom #middle .headline .headline_outer {
+                padding-top: 0 !important;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .header_mid .header_mid_inner>div,
+            .header_bot .header_bot_inner>div {
+                height: auto;
+            }
+        }
+
+        .cmsmasters_homepage_campaign .owl-buttons {
+            display: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #page .cmsmasters_homepage_become_volunteer .cmsmasters_column>div {
+                display: block;
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            #page .cmsmasters_homepage_become_volunteer .cmsmasters_column>div .cmsmasters_heading {
+                text-align: center;
+            }
+            #page .cmsmasters_homepage_become_volunteer .cmsmasters_column>div+div {
+                margin-top: 40px;
+            }
+            #page .cmsmasters_homepage_welcome_section .featured_block_inner {
+                padding: 40px 20px;
+            }
+            #page .cmsmasters_homepage_icons>div {
+                padding-top: 0;
+            }
+        }
+
+        @media only screen and (max-width: 540px) {
+            #page .cmsmasters_latest_news .cmsmasters_heading_wrap,
+            #page .cmsmasters_fundraising_campaigns .cmsmasters_heading_wrap {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            #page .cmsmasters_homepage_become_volunteer .cmsmasters_heading_wrap {
+                padding-right: 20px;
+            }
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_1 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_1:hover {
+            background-color: #84d553;
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_2 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_2:hover {
+            background-color: #84d553;
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_3 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_3:hover {
+            background-color: #84d553;
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_4 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_4:hover {
+            background-color: #84d553;
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_5 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        #page .cmsmasters_social_icon_color.cmsmasters_social_icon_5:hover {
+            background-color: #84d553;
+        }
+    </style> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+    <meta name="generator" content="Powered by Slider Revolution 6.6.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <link rel="icon" href="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/icon-—-коjпия-60x60.png" sizes="32x32" />
+    <link rel="icon" href="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/icon-—-коjпия.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/icon-—-коjпия.png" />
+    <meta name="msapplication-TileImage" content="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/icon-—-коjпия.png" />
+    <script>
+        function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() {
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) || (e.l == "fullwidth" || e.layout == "fullwidth") ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl)
+                        if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl)
+                        if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl)
+                        if (sl > nl[i] && nl[i] > 0) {
+                            sl = nl[i];
+                            ix = i;
+                        }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                var el = document.getElementById(e.c);
+                if (el !== null && el) el.style.height = newh + "px";
+                el = document.getElementById(e.c + "_wrapper");
+                if (el !== null && el) {
+                    el.style.height = newh + "px";
+                    el.style.display = "block";
+                }
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };
+    </script>
+</head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-7366 theme-eco-press woocommerce-no-js tribe-no-js">
+
+    <!--  Start Page -->
+    <div id="page" class="csstransition chrome_only cmsmasters_liquid fixed_header cmsmasters_heading_under_header cmsmasters_header_overlaps_enabled cmsmasters_tribe_events_views_v2 cmsmasters_tribe_events_style_mode_tribe hfeed site">
+
+        <!--  Start Main -->
+        <div id="main">
+
+            <!--  Start Header -->
+            <header id="header">
+                <div class="header_mid" data-height="98">
+                    <div class="header_mid_outer">
+                        <div class="header_mid_inner">
+                            <div class="logo_wrap"><a href="https://eco-press.cmsmasters.net/" title="Eco Press" class="logo">
+	<img src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/img/logo_overlaps.png" alt="Eco Press" />
+	<img class="logo_retina" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/img/logo_overlaps_retina.png" alt="Eco Press" width="162" height="70" />
+<img class="logo_overlaps_scroll" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/img/logo.png" alt="Eco Press" />
+	<img class="logo_retina logo_retina_overlaps_scroll" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/img/logo_retina.png" alt="Eco Press" width="162" height="70" />
+</a>
+
+                                <style type="text/css">
+                                    .header_mid .header_mid_inner .logo_wrap {
+                                        width: 226px;
+                                    }
+                                </style>
+
+                                <style type="text/css">
+                                    .header_mid_inner .logo img.logo_retina {
+                                        width: 162px;
+                                        max-width: 162px;
+                                    }
+                                </style>
+                            </div>
+                            <div class="header_donation_but_wrap">
+                                <div class="header_donation_but_wrap_inner">
+                                    <div class="header_donation_but"><a href="https://eco-press.cmsmasters.net/donate-confirmation/" class="cmsmasters_button"><span>Donate Now!</span></a></div>
                                 </div>
+                            </div>
+                            <div class="cmsmasters_dynamic_cart_wrap">
+                                <div class="cmsmasters_dynamic_cart"><a href="javascript:void(0)" class="cmsmasters_dynamic_cart_button cmsmasters_theme_icon_basket"></a>
+                                    <div class="widget_shopping_cart_content"></div>
+                                </div>
+                                <div class="cmsmasters_dynamic_cart cmsmasters_dynamic_cart--mobile"><a href="https://eco-press.cmsmasters.net/cart-2/" class="cmsmasters_dynamic_cart_button cmsmasters_theme_icon_basket"></a></div>
+                            </div>
+                            <div class="resp_mid_nav_wrap">
+                                <div class="resp_mid_nav_outer"><a class="responsive_nav resp_mid_nav cmsmasters_theme_icon_resp_nav" href="javascript:void(0);"></a></div>
+                            </div>
+                            <!-- Start Navigation -->
+                            <div class="mid_nav_wrap">
+                                <nav>
+                                    <div class="menu-primary-navigation-container">
+                                        <ul id="navigation" class="mid_nav navigation">
+                                            <li id="menu-item-10701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7366 current_page_item menu-item-10701 menu-item-depth-0"><a href="https://eco-press.cmsmasters.net/"><span class="nav_item_wrap"><span class="nav_title">Home</span></span></a></li>
+                                            <li id="menu-item-10703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10703 menu-item-depth-0"><a href="https://eco-press.cmsmasters.net/campaigns/"><span class="nav_item_wrap"><span class="nav_title">Campaigns</span></span></a></li>
+                                            <li id="menu-item-10629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10629 menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Features</span></span></a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10693 menu-item-depth-1"><a href="https://eco-press.cmsmasters.net/about-us/"><span class="nav_item_wrap"><span class="nav_title">About Us</span></span></a> </li>
+                                                    <li id="menu-item-10708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10708 menu-item-depth-1"><a href="https://eco-press.cmsmasters.net/projects/"><span class="nav_item_wrap"><span class="nav_title">Projects</span></span></a> </li>
+                                                    <li id="menu-item-11257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11257 menu-item-depth-1"><a href="https://eco-press.cmsmasters.net/events/list/"><span class="nav_item_wrap"><span class="nav_title">Events</span></span></a> </li>
+                                                    <li id="menu-item-11260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11260 menu-item-depth-1"><a href="https://eco-press.cmsmasters.net/news/"><span class="nav_item_wrap"><span class="nav_title">News</span></span></a> </li>
+                                                    <li id="menu-item-10656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10656 menu-item-depth-1"><a href="https://eco-press.cmsmasters.net/contact-us/"><span class="nav_item_wrap"><span class="nav_title">Contact Us</span></span></a> </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-10625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10625 menu-item-mega menu-item-mega-cols-four menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Shortcodes</span></span></a>
+                                                <div class="menu-item-mega-container">
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-10636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10636 menu-item-depth-1 menu-item-hide-text"><a href="#"><span class="nav_item_wrap"></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10657 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/blog-shortcode/"><span class="nav_item_wrap"><span class="nav_title">Blog Shortcode</span></span></a> </li>
+                                                                <li id="menu-item-10658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10658 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/buttons-icons/"><span class="nav_item_wrap"><span class="nav_title">Buttons &#038; Icons</span></span></a> </li>
+                                                                <li id="menu-item-10659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10659 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/clients/"><span class="nav_item_wrap"><span class="nav_title">Clients</span></span></a> </li>
+                                                                <li id="menu-item-10661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10661 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/counters-progress-bars/"><span class="nav_item_wrap"><span class="nav_title">Counters &#038; Progress Bars</span></span></a> </li>
+                                                                <li id="menu-item-10662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10662 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/custom-html-css-js/"><span class="nav_item_wrap"><span class="nav_title">Custom HTML, CSS, JS</span></span></a> </li>
+                                                                <li id="menu-item-10663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10663 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/dividers/"><span class="nav_item_wrap"><span class="nav_title">Dividers</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10626 menu-item-depth-1 menu-item-hide-text"><a href="#"><span class="nav_item_wrap"></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10669 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/embedded/"><span class="nav_item_wrap"><span class="nav_title">Embedded</span></span></a> </li>
+                                                                <li id="menu-item-10670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10670 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/featured-blocks/"><span class="nav_item_wrap"><span class="nav_title">Featured Blocks</span></span></a> </li>
+                                                                <li id="menu-item-10668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10668 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/gallery/"><span class="nav_item_wrap"><span class="nav_title">Gallery</span></span></a> </li>
+                                                                <li id="menu-item-10667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10667 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/google-maps/"><span class="nav_item_wrap"><span class="nav_title">Google Maps</span></span></a> </li>
+                                                                <li id="menu-item-10666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10666 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/icon-boxes/"><span class="nav_item_wrap"><span class="nav_title">Icon Boxes</span></span></a> </li>
+                                                                <li id="menu-item-10665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10665 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/icon-lists/"><span class="nav_item_wrap"><span class="nav_title">Icon Lists</span></span></a> </li>
+                                                                <li id="menu-item-10664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10664 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/images/"><span class="nav_item_wrap"><span class="nav_title">Images</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10627" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10627 menu-item-depth-1 menu-item-hide-text"><a href="#"><span class="nav_item_wrap"></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10671 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/notice-boxes/"><span class="nav_item_wrap"><span class="nav_title">Notice Boxes</span></span></a> </li>
+                                                                <li id="menu-item-10678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10678 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/portfolio-shortcode/"><span class="nav_item_wrap"><span class="nav_title">Portfolio Shortcode</span></span></a> </li>
+                                                                <li id="menu-item-10672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10672 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/posts-or-projects-slider/"><span class="nav_item_wrap"><span class="nav_title">Posts or Projects Slider</span></span></a> </li>
+                                                                <li id="menu-item-10673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10673 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/pricing-tables/"><span class="nav_item_wrap"><span class="nav_title">Pricing Tables</span></span></a> </li>
+                                                                <li id="menu-item-10674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10674 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/profiles/"><span class="nav_item_wrap"><span class="nav_title">Profiles</span></span></a> </li>
+                                                                <li id="menu-item-10676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10676 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/quotes/"><span class="nav_item_wrap"><span class="nav_title">Quotes</span></span></a> </li>
+                                                                <li id="menu-item-10677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10677 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/sidebar/"><span class="nav_item_wrap"><span class="nav_title">Sidebars</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10628" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10628 menu-item-depth-1 menu-item-hide-text"><a href="#"><span class="nav_item_wrap"></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10675 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/sliders/"><span class="nav_item_wrap"><span class="nav_title">Sliders</span></span></a> </li>
+                                                                <li id="menu-item-10684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10684 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/social-sharing/"><span class="nav_item_wrap"><span class="nav_title">Social Sharing</span></span></a> </li>
+                                                                <li id="menu-item-10683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10683 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/special-headings/"><span class="nav_item_wrap"><span class="nav_title">Special Headings</span></span></a> </li>
+                                                                <li id="menu-item-10682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10682 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/tables/"><span class="nav_item_wrap"><span class="nav_title">Tables</span></span></a> </li>
+                                                                <li id="menu-item-10681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10681 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/tabs-tours/"><span class="nav_item_wrap"><span class="nav_title">Tabs &#038; Tours</span></span></a> </li>
+                                                                <li id="menu-item-10680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10680 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/toggles-accordions/"><span class="nav_item_wrap"><span class="nav_title">Toggles &#038; Accordions</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li id="menu-item-10630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10630 menu-item-mega menu-item-mega-cols-five menu-item-depth-0"><a><span class="nav_item_wrap"><span class="nav_title">Post Types</span></span></a>
+                                                <div class="menu-item-mega-container">
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-10631" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10631 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Blog</span></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10687 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/standard-blog/"><span class="nav_item_wrap"><span class="nav_title">Standard Blog</span></span></a> </li>
+                                                                <li id="menu-item-10686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10686 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/masonry-blog/"><span class="nav_item_wrap"><span class="nav_title">Masonry Blog</span></span></a> </li>
+                                                                <li id="menu-item-10685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10685 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/timeline-blog/"><span class="nav_item_wrap"><span class="nav_title">Timeline Blog</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10632 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Projects Grid</span></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10689 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/projects-grid/"><span class="nav_item_wrap"><span class="nav_title">Large Gap</span></span></a> </li>
+                                                                <li id="menu-item-10694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10694 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/no-gap-projects-grid/"><span class="nav_item_wrap"><span class="nav_title">No Gap</span></span></a> </li>
+                                                                <li id="menu-item-10688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10688 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/1-pixel-gap-projects-grid/"><span class="nav_item_wrap"><span class="nav_title">1 Pixel Gap</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10633" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10633 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Masonry Puzzle</span></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10695 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/large-gap-masonry/"><span class="nav_item_wrap"><span class="nav_title">Large Gap</span></span></a> </li>
+                                                                <li id="menu-item-10696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10696 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/no-gap-masonry/"><span class="nav_item_wrap"><span class="nav_title">No Gap</span></span></a> </li>
+                                                                <li id="menu-item-10699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10699 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/1-pixel-gap-masonry/"><span class="nav_item_wrap"><span class="nav_title">1 Pixel Gap</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10634 menu-item-depth-1"><a><span class="nav_item_wrap"><span class="nav_title">Profiles</span></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10697" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10697 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/horizontal/"><span class="nav_item_wrap"><span class="nav_title">Horizontal</span></span></a> </li>
+                                                                <li id="menu-item-10698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10698 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/vertical/"><span class="nav_item_wrap"><span class="nav_title">Vertical</span></span></a> </li>
+                                                                <li id="menu-item-10635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10635 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/profile/alice-van-der-bohm/"><span class="nav_item_wrap"><span class="nav_title">Open Profile</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-10884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10884 menu-item-depth-1"><a href="#"><span class="nav_item_wrap"><span class="nav_title">Events</span></span></a>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-10885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10885 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/events/"><span class="nav_item_wrap"><span class="nav_title">Month</span></span></a> </li>
+                                                                <li id="menu-item-10886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10886 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/events/map/"><span class="nav_item_wrap"><span class="nav_title">Map</span></span></a> </li>
+                                                                <li id="menu-item-10887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10887 menu-item-depth-subitem"><a href="https://eco-press.cmsmasters.net/events/photo/"><span class="nav_item_wrap"><span class="nav_title">Photo</span></span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li id="menu-item-10655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10655 menu-item-depth-0"><a href="https://eco-press.cmsmasters.net/shop-2/"><span class="nav_item_wrap"><span class="nav_title">Shop</span></span></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Finish Navigation -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--  Finish Header -->
 
-                                <div class="relative flex items-center gap-6 lg:items-end">
-                                    <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
-                                        <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                            <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#FF2D20" d="M23 4a1 1 0 0 0-1.447-.894L12.224 7.77a.5.5 0 0 1-.448 0L2.447 3.106A1 1 0 0 0 1 4v13.382a1.99 1.99 0 0 0 1.105 1.79l9.448 4.728c.14.065.293.1.447.1.154-.005.306-.04.447-.105l9.453-4.724a1.99 1.99 0 0 0 1.1-1.789V4ZM3 6.023a.25.25 0 0 1 .362-.223l7.5 3.75a.251.251 0 0 1 .138.223v11.2a.25.25 0 0 1-.362.224l-7.5-3.75a.25.25 0 0 1-.138-.22V6.023Zm18 11.2a.25.25 0 0 1-.138.224l-7.5 3.75a.249.249 0 0 1-.329-.099.249.249 0 0 1-.033-.12V9.772a.251.251 0 0 1 .138-.224l7.5-3.75a.25.25 0 0 1 .362.224v11.2Z"/><path fill="#FF2D20" d="m3.55 1.893 8 4.048a1.008 1.008 0 0 0 .9 0l8-4.048a1 1 0 0 0-.9-1.785l-7.322 3.706a.506.506 0 0 1-.452 0L4.454.108a1 1 0 0 0-.9 1.785H3.55Z"/></svg>
-                                        </div>
 
-                                        <div class="pt-3 sm:pt-5 lg:pt-0">
-                                            <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
+            <!--  Start Middle -->
+            <div id="middle">
+                <div class="middle_inner">
+                    <div class="content_wrap fullwidth">
 
-                                            <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                            </p>
+                        <!-- Start Content -->
+                        <div class="middle_content entry"></div>
+                    </div>
+                    <style type="text/css">
+                        #cmsmasters_row_6602e7d2e749c2_38948502 .cmsmasters_row_outer_parent {
+                            padding-top: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d2e749c2_38948502 .cmsmasters_row_outer_parent {
+                            padding-bottom: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d2e749c2_38948502 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-left: 0%;
+                        }
+
+                        #cmsmasters_row_6602e7d2e749c2_38948502 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-right: 0%;
+                        }
+
+                        #cmsmasters_row_6602e7d2f023e5_72471133 .cmsmasters_row_outer_parent {
+                            padding-top: 55px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f023e5_72471133 .cmsmasters_row_outer_parent {
+                            padding-bottom: 65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 {
+                            border-width: 0px;
+                            color: #343434;
+                            background-color: #ffffff;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529:before,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 .icon_box_heading:before {
+                            font-size: 130px;
+                            line-height: 130px;
+                            width: 130px;
+                            height: 130px;
+                            border-width: 0px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_heading_left,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_top,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left_top {
+                            padding: 30px 20px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_top:before {
+                            top: 30px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 a:not(.cmsmasters_button),
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 a:not(.cmsmasters_button):hover,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h1,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h2,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h3,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h4,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h5,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 h6 {
+                            color: #343434;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 a:not(.cmsmasters_button) {
+                            text-decoration: underline;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529 a:not(.cmsmasters_button):hover {
+                            text-decoration: none;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left_top {
+                            padding-left: 95px;
+                            margin-left: 65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left:before,
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left_top:before {
+                            left: -65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left:before {
+                            margin-top: -65px;
+                        }
+
+                        @media only screen and (max-width: 540px) {
+                            #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left {
+                                padding-top: 85px;
+                                margin-top: 65px;
+                                margin-left: 0px;
+                                margin-right: 0px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                padding-bottom: 65px;
+                            }
+                            #cmsmasters_icon_box_6602e7d2f07347_11493529.cmsmasters_icon_box_left:before {
+                                top: -65px;
+                                left: 0px;
+                                right: 0px;
+                                margin: 0 auto;
+                            }
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f07347_11493529:before {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/energy-2.jpg);
+                        }
+
+                        #cmsmasters_divider_6602e7d2f0a969_25945671 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 10px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_divider_6602e7d2f0b0c1_79587689 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: -50px;
+                            margin-bottom: -50px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 {
+                            border-width: 0px;
+                            color: #343434;
+                            background-color: #ffffff;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572:before,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 .icon_box_heading:before {
+                            font-size: 130px;
+                            line-height: 130px;
+                            width: 130px;
+                            height: 130px;
+                            border-width: 0px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_heading_left,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_top,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left_top {
+                            padding: 30px 20px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_top:before {
+                            top: 30px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 a:not(.cmsmasters_button),
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 a:not(.cmsmasters_button):hover,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h1,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h2,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h3,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h4,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h5,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 h6 {
+                            color: #343434;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 a:not(.cmsmasters_button) {
+                            text-decoration: underline;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572 a:not(.cmsmasters_button):hover {
+                            text-decoration: none;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left_top {
+                            padding-left: 95px;
+                            margin-left: 65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left:before,
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left_top:before {
+                            left: -65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left:before {
+                            margin-top: -65px;
+                        }
+
+                        @media only screen and (max-width: 540px) {
+                            #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left {
+                                padding-top: 85px;
+                                margin-top: 65px;
+                                margin-left: 0px;
+                                margin-right: 0px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                padding-bottom: 65px;
+                            }
+                            #cmsmasters_icon_box_6602e7d2f0d9f3_16786572.cmsmasters_icon_box_left:before {
+                                top: -65px;
+                                left: 0px;
+                                right: 0px;
+                                margin: 0 auto;
+                            }
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f0d9f3_16786572:before {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/environment-1.jpg);
+                        }
+
+                        #cmsmasters_divider_6602e7d2f10e38_45402316 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 10px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 {
+                            border-width: 0px;
+                            color: #343434;
+                            background-color: #ffffff;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626:before,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 .icon_box_heading:before {
+                            font-size: 130px;
+                            line-height: 130px;
+                            width: 130px;
+                            height: 130px;
+                            border-width: 0px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_heading_left,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_top,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left_top {
+                            padding: 30px 20px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_top:before {
+                            top: 30px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 a:not(.cmsmasters_button),
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 a:not(.cmsmasters_button):hover,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h1,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h2,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h3,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h4,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h5,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 h6 {
+                            color: #343434;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 a:not(.cmsmasters_button) {
+                            text-decoration: underline;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626 a:not(.cmsmasters_button):hover {
+                            text-decoration: none;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left_top {
+                            padding-left: 95px;
+                            margin-left: 65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left:before,
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left_top:before {
+                            left: -65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left:before {
+                            margin-top: -65px;
+                        }
+
+                        @media only screen and (max-width: 540px) {
+                            #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left {
+                                padding-top: 85px;
+                                margin-top: 65px;
+                                margin-left: 0px;
+                                margin-right: 0px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                padding-bottom: 65px;
+                            }
+                            #cmsmasters_icon_box_6602e7d2f147f7_04089626.cmsmasters_icon_box_left:before {
+                                top: -65px;
+                                left: 0px;
+                                right: 0px;
+                                margin: 0 auto;
+                            }
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f147f7_04089626:before {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/recycle-1.jpg);
+                        }
+
+                        #cmsmasters_divider_6602e7d2f17e84_95466381 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 10px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_divider_6602e7d2f18560_13383518 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: -50px;
+                            margin-bottom: -50px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 {
+                            border-width: 0px;
+                            color: #343434;
+                            background-color: #ffffff;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172:before,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 .icon_box_heading:before {
+                            font-size: 130px;
+                            line-height: 130px;
+                            width: 130px;
+                            height: 130px;
+                            border-width: 0px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_heading_left,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_top,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left_top {
+                            padding: 30px 20px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_top:before {
+                            top: 30px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 a:not(.cmsmasters_button),
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 a:not(.cmsmasters_button):hover,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h1,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h2,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h3,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h4,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h5,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 h6 {
+                            color: #343434;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 a:not(.cmsmasters_button) {
+                            text-decoration: underline;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172 a:not(.cmsmasters_button):hover {
+                            text-decoration: none;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left_top {
+                            padding-left: 95px;
+                            margin-left: 65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left:before,
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left_top:before {
+                            left: -65px;
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left:before {
+                            margin-top: -65px;
+                        }
+
+                        @media only screen and (max-width: 540px) {
+                            #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left {
+                                padding-top: 85px;
+                                margin-top: 65px;
+                                margin-left: 0px;
+                                margin-right: 0px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                padding-bottom: 65px;
+                            }
+                            #cmsmasters_icon_box_6602e7d2f1ada4_27495172.cmsmasters_icon_box_left:before {
+                                top: -65px;
+                                left: 0px;
+                                right: 0px;
+                                margin: 0 auto;
+                            }
+                        }
+
+                        #cmsmasters_icon_box_6602e7d2f1ada4_27495172:before {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/water-1.jpg);
+                        }
+
+                        #cmsmasters_divider_6602e7d2f1e1d4_05039769 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 10px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f1ed51_07676530 {
+                            background-color: #f9f9f9;
+                        }
+
+                        #cmsmasters_row_6602e7d2f1ed51_07676530 .cmsmasters_row_outer_parent {
+                            padding-top: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f1ed51_07676530 .cmsmasters_row_outer_parent {
+                            padding-bottom: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f1ed51_07676530 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-left: 0%;
+                        }
+
+                        #cmsmasters_row_6602e7d2f1ed51_07676530 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-right: 0%;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f20212_11801693 {
+                            padding-top: 920px;
+                            padding-bottom: 0px;
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/Untitled-2-2.jpg);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-size: cover;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f20212_11801693 .featured_block_inner {
+                            width: 100%;
+                            padding: 0;
+                            text-align: left;
+                            margin: 0 auto;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f20212_11801693 .featured_block_text {
+                            text-align: left;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f24b74_48829986 {
+                            padding-top: 0px;
+                            padding-bottom: 0px;
+                            background-color: #f9f9f9;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f24b74_48829986 .featured_block_inner {
+                            width: 86%;
+                            padding: 21% 10% 10% 10%;
+                            text-align: left;
+                            margin: 0 auto;
+                        }
+
+                        #cmsmasters_fb_6602e7d2f24b74_48829986 .featured_block_text {
+                            text-align: left;
+                        }
+
+                        #cmsmasters_divider_6602e7d2f25c35_38216275 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 30px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_divider_6602e7d2f25f70_21948064 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 30px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_divider_6602e7d2f26221_38738459 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 40px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_button_6602e7d2f265b0_26992555 {
+                            float: left;
+                        }
+
+                        #cmsmasters_button_6602e7d2f265b0_26992555 .cmsmasters_button:before {
+                            margin-right: .5em;
+                            margin-left: 0;
+                            vertical-align: baseline;
+                        }
+
+                        #cmsmasters_button_6602e7d2f265b0_26992555 .cmsmasters_button {
+                            font-size: 13px;
+                            line-height: 48px;
+                            font-weight: bold;
+                            font-style: normal;
+                            padding-right: 35px;
+                            padding-left: 35px;
+                            border-style: solid;
+                            -webkit-border-radius: 30px 30px;
+                            border-radius: 30px 30px;
+                        }
+
+                        #cmsmasters_button_6602e7d2f265b0_26992555 .cmsmasters_button:hover {}
+
+                        #cmsmasters_row_6602e7d2f26d49_75634798 {
+                            background-color: #46c965;
+                        }
+
+                        #cmsmasters_row_6602e7d2f26d49_75634798 .cmsmasters_row_outer_parent {
+                            padding-top: 70px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f26d49_75634798 .cmsmasters_row_outer_parent {
+                            padding-bottom: 50px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f26d49_75634798 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-left: 3%;
+                        }
+
+                        #cmsmasters_row_6602e7d2f26d49_75634798 .cmsmasters_row_inner.cmsmasters_row_fullwidth {
+                            padding-right: 3%;
+                        }
+
+                        #cmsmasters_counters_6602e7d2f28b1 .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner,
+                        #cmsmasters_counters_6602e7d2f28b1 .cmsmasters_counter.counter_has_icon .cmsmasters_counter_inner,
+                        #cmsmasters_counters_6602e7d2f28b1 .cmsmasters_counter.counter_has_image .cmsmasters_counter_inner,
+                        #cmsmasters_counters_6602e7d2f28b1.counters_type_horizontal .cmsmasters_counter.counter_has_icon .cmsmasters_counter_subtitle {
+                            padding-top: 70px;
+                        }
+
+                        #cmsmasters_counters_6602e7d2f28b1.counters_type_vertical .cmsmasters_counter .cmsmasters_counter_inner:before {
+                            margin-left: -30px;
+                        }
+
+                        #cmsmasters_counters_6602e7d2f28b1.counters_type_horizontal .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap {
+                            line-height: 60px;
+                        }
+
+                        #cmsmasters_counters_6602e7d2f28b1 .cmsmasters_counter .cmsmasters_counter_inner:before {
+                            font-size: 30px;
+                            line-height: 60px;
+                            width: 60px;
+                            height: 60px;
+                            border-width: 0px;
+                            -webkit-border-radius: 50%;
+                            border-radius: 50%;
+                        }
+
+                        #cmsmasters_counter_6602e7d2f29638_67942095 .cmsmasters_counter_inner:before {}
+
+                        #cmsmasters_counter_6602e7d2f29638_67942095 .cmsmasters_counter_counter {
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_counter_6602e7d2f299d5_22248625 .cmsmasters_counter_inner:before {}
+
+                        #cmsmasters_counter_6602e7d2f299d5_22248625 .cmsmasters_counter_counter {
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_counter_6602e7d2f29cc3_88508854 .cmsmasters_counter_inner:before {}
+
+                        #cmsmasters_counter_6602e7d2f29fd2_62895669 .cmsmasters_counter_inner:before {}
+
+                        #cmsmasters_counter_6602e7d2f29fd2_62895669 .cmsmasters_counter_counter {
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_counter_6602e7d2f2a2b6_19113319 .cmsmasters_counter_inner:before {}
+
+                        #cmsmasters_counter_6602e7d2f2a2b6_19113319 .cmsmasters_counter_counter {
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_row_6602e7d2f2a992_44659659 {
+                            background-color: #f8f8f8;
+                        }
+
+                        #cmsmasters_row_6602e7d2f2a992_44659659 .cmsmasters_row_outer_parent {
+                            padding-top: 110px;
+                        }
+
+                        #cmsmasters_row_6602e7d2f2a992_44659659 .cmsmasters_row_outer_parent {
+                            padding-bottom: 140px;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2cd87_57501000 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2cd87_57501000 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2cd87_57501000 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d2f2cd87_57501000 .cmsmasters_heading a {
+                            font-size: 48px;
+                            font-weight: 300;
+                            font-style: normal;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2cd87_57501000 .cmsmasters_heading_divider {}
+
+                        #cmsmasters_heading_6602e7d2f2de07_93301257 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 60px;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2de07_93301257 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2de07_93301257 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d2f2de07_93301257 .cmsmasters_heading a {
+                            font-family: 'Lato';
+                            font-size: 20px;
+                            font-weight: 300;
+                            font-style: normal;
+                        }
+
+                        #cmsmasters_heading_6602e7d2f2de07_93301257 .cmsmasters_heading_divider {}
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d300a61.cmsmasters_stat {
+                            height: 8%;
+                        }
+
+                        #cmsmasters_row_6602e7d3011df5_35828566 {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/Untitled-1.jpg);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-size: cover;
+                            position: static;
+                        }
+
+                        #cmsmasters_row_6602e7d3011df5_35828566 .cmsmasters_row_outer_parent {
+                            padding-top: 140px;
+                        }
+
+                        #cmsmasters_row_6602e7d3011df5_35828566 .cmsmasters_row_outer_parent {
+                            padding-bottom: 170px;
+                        }
+
+                        #cmsmasters_heading_6602e7d3016f00_90903947 {
+                            text-align: left;
+                            margin-top: 0px;
+                            margin-bottom: -40px;
+                        }
+
+                        #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading {
+                            text-align: left;
+                        }
+
+                        #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading a {
+                            font-size: 42px;
+                            line-height: 52px;
+                            font-weight: 300;
+                            font-style: normal;
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading_divider {}
+
+                        @media (max-width: 767px) {
+                            #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading,
+                            #cmsmasters_heading_6602e7d3016f00_90903947 .cmsmasters_heading a {
+                                font-size: 32px;
+                                line-height: 42px;
+                            }
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d3044f9.cmsmasters_stat {
+                            width: 10%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d3057d0.cmsmasters_stat {
+                            width: 10%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d306cdf.cmsmasters_stat {
+                            width: 5%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d308210.cmsmasters_stat {
+                            width: 48%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d309700.cmsmasters_stat {
+                            width: 8%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d30ac31.cmsmasters_stat {
+                            width: 18%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d30bf9e.cmsmasters_stat {
+                            width: 23%;
+                        }
+
+                        .cmsmasters_stats.shortcode_animated #cmsmasters_stat_6602e7d30d326.cmsmasters_stat {
+                            width: 6%;
+                        }
+
+                        #cmsmasters_row_6602e7d30d52f9_07865841 {
+                            background-color: #46c965;
+                        }
+
+                        #cmsmasters_row_6602e7d30d52f9_07865841 .cmsmasters_row_outer_parent {
+                            padding-top: 50px;
+                        }
+
+                        #cmsmasters_row_6602e7d30d52f9_07865841 .cmsmasters_row_outer_parent {
+                            padding-bottom: 50px;
+                        }
+
+                        #cmsmasters_button_6602e7d30d6f81_35792107 {
+                            float: right;
+                        }
+
+                        #cmsmasters_button_6602e7d30d6f81_35792107 .cmsmasters_button:before {
+                            margin-right: .5em;
+                            margin-left: 0;
+                            vertical-align: baseline;
+                        }
+
+                        #cmsmasters_button_6602e7d30d6f81_35792107 .cmsmasters_button {
+                            font-size: 13px;
+                            line-height: 48px;
+                            font-weight: bold;
+                            font-style: normal;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            border-width: 2px;
+                            border-style: solid;
+                            -webkit-border-radius: 30px 30px;
+                            border-radius: 30px 30px;
+                            background-color: #ffffff;
+                            color: #343434;
+                            border-color: #ffffff;
+                        }
+
+                        #cmsmasters_button_6602e7d30d6f81_35792107 .cmsmasters_button:hover {
+                            background-color: rgba(255, 255, 255, 0);
+                            color: #ffffff;
+                            border-color: #ffffff;
+                        }
+
+                        #cmsmasters_heading_6602e7d30d82d5_16157820 {
+                            text-align: left;
+                            margin-top: 5px;
+                            margin-bottom: 0px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30d82d5_16157820 .cmsmasters_heading {
+                            text-align: left;
+                        }
+
+                        #cmsmasters_heading_6602e7d30d82d5_16157820 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d30d82d5_16157820 .cmsmasters_heading a {
+                            font-size: 36px;
+                            font-weight: 300;
+                            font-style: normal;
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_heading_6602e7d30d82d5_16157820 .cmsmasters_heading_divider {}
+
+                        #cmsmasters_row_6602e7d30d8937_66607962 {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/water-conservation.jpg);
+                            background-position: top center;
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-size: cover;
+                        }
+
+                        #cmsmasters_row_6602e7d30d8937_66607962 .cmsmasters_row_outer_parent {
+                            padding-top: 290px;
+                        }
+
+                        #cmsmasters_row_6602e7d30d8937_66607962 .cmsmasters_row_outer_parent {
+                            padding-bottom: 260px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30dd261_13864804 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 40px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30dd261_13864804 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d30dd261_13864804 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d30dd261_13864804 .cmsmasters_heading a {
+                            font-family: 'Lato';
+                            font-size: 16px;
+                            font-weight: bold;
+                            font-style: normal;
+                            color: #46c965;
+                        }
+
+                        #cmsmasters_heading_6602e7d30dd261_13864804 .cmsmasters_heading_divider {}
+
+                        #cmsmasters_heading_6602e7d30de385_21260853 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 10px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading a {
+                            font-size: 60px;
+                            font-weight: 300;
+                            font-style: normal;
+                        }
+
+                        #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading_divider {}
+
+                        @media (max-width: 767px) {
+                            #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading,
+                            #cmsmasters_heading_6602e7d30de385_21260853 .cmsmasters_heading a {
+                                font-size: 40px;
+                            }
+                        }
+
+                        #cmsmasters_heading_6602e7d30df431_33068308 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 70px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading a {
+                            font-size: 60px;
+                            font-weight: 300;
+                            font-style: normal;
+                        }
+
+                        #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading_divider {}
+
+                        @media (max-width: 767px) {
+                            #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading,
+                            #cmsmasters_heading_6602e7d30df431_33068308 .cmsmasters_heading a {
+                                font-size: 40px;
+                            }
+                        }
+
+                        #cmsmasters_button_6602e7d30df9b5_67231848 {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_button_6602e7d30df9b5_67231848 .cmsmasters_button:before {
+                            margin-right: .5em;
+                            margin-left: 0;
+                            vertical-align: baseline;
+                        }
+
+                        #cmsmasters_button_6602e7d30df9b5_67231848 .cmsmasters_button {
+                            font-size: 13px;
+                            line-height: 54px;
+                            font-weight: bold;
+                            font-style: normal;
+                            padding-right: 30px;
+                            padding-left: 30px;
+                            border-style: solid;
+                            -webkit-border-radius: 35px 35px;
+                            border-radius: 35px 35px;
+                        }
+
+                        #cmsmasters_button_6602e7d30df9b5_67231848 .cmsmasters_button:hover {}
+
+                        #cmsmasters_row_6602e7d30dfff7_30861147 .cmsmasters_row_outer_parent {
+                            padding-top: 100px;
+                        }
+
+                        #cmsmasters_row_6602e7d30dfff7_30861147 .cmsmasters_row_outer_parent {
+                            padding-bottom: 100px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30e1872_22432112 {
+                            text-align: left;
+                            margin-top: 0px;
+                            margin-bottom: -40px;
+                        }
+
+                        #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading {
+                            text-align: left;
+                        }
+
+                        #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading a {
+                            font-size: 42px;
+                            line-height: 52px;
+                            font-weight: 300;
+                            font-style: normal;
+                        }
+
+                        #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading_divider {}
+
+                        @media (max-width: 767px) {
+                            #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading,
+                            #cmsmasters_heading_6602e7d30e1872_22432112 .cmsmasters_heading a {
+                                font-size: 32px;
+                                line-height: 42px;
+                            }
+                        }
+
+                        #cmsmasters_row_6602e7d31ab0e1_66371508 {
+                            background-image: url(https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/future-2.jpg);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-size: cover;
+                        }
+
+                        #cmsmasters_row_6602e7d31ab0e1_66371508 .cmsmasters_row_outer_parent {
+                            padding-top: 170px;
+                        }
+
+                        #cmsmasters_row_6602e7d31ab0e1_66371508 .cmsmasters_row_outer_parent {
+                            padding-bottom: 170px;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b06f3_69161021 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 40px;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b06f3_69161021 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b06f3_69161021 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d31b06f3_69161021 .cmsmasters_heading a {
+                            font-family: 'Lato';
+                            font-size: 16px;
+                            font-weight: bold;
+                            font-style: normal;
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b06f3_69161021 .cmsmasters_heading_divider {}
+
+                        #cmsmasters_heading_6602e7d31b18d2_10841885 {
+                            text-align: center;
+                            margin-top: 0px;
+                            margin-bottom: 50px;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b18d2_10841885 .cmsmasters_heading {
+                            text-align: center;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b18d2_10841885 .cmsmasters_heading,
+                        #cmsmasters_heading_6602e7d31b18d2_10841885 .cmsmasters_heading a {
+                            font-size: 60px;
+                            line-height: 70px;
+                            font-weight: 300;
+                            font-style: normal;
+                            color: #ffffff;
+                        }
+
+                        #cmsmasters_heading_6602e7d31b18d2_10841885 .cmsmasters_heading_divider {}
+
+                        #cmsmasters_divider_6602e7d31b2316_72926163 {
+                            border-bottom-width: 0px;
+                            border-bottom-style: solid;
+                            padding-top: 0px;
+                            margin-bottom: 50px;
+                        }
+
+                        #cmsmasters_row_6602e7d31b57d0_06049377 .cmsmasters_row_outer_parent {
+                            padding-top: 100px;
+                        }
+
+                        #cmsmasters_row_6602e7d31b57d0_06049377 .cmsmasters_row_outer_parent {
+                            padding-bottom: 0px;
+                        }
+
+                        #cmsmasters_row_6602e7d31c4964_30542282 .cmsmasters_row_outer_parent {
+                            padding-top: 20px;
+                        }
+
+                        #cmsmasters_row_6602e7d31c4964_30542282 .cmsmasters_row_outer_parent {
+                            padding-bottom: 30px;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c6285_12153759 {
+                            display: block;
+                            text-align: center;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c6285_12153759 .cmsmasters_simple_icon {
+                            border-width: 0px;
+                            width: 120px;
+                            height: 120px;
+                            font-size: 60px;
+                            line-height: 120px;
+                            text-align: center;
+                            -webkit-border-radius: 50%;
+                            border-radius: 50%;
+                            color: #53d572;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c6d29_12807951 {
+                            display: block;
+                            text-align: center;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c6d29_12807951 .cmsmasters_simple_icon {
+                            border-width: 0px;
+                            width: 120px;
+                            height: 120px;
+                            font-size: 60px;
+                            line-height: 120px;
+                            text-align: center;
+                            -webkit-border-radius: 50%;
+                            border-radius: 50%;
+                            color: #53d572;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c76b2_45450849 {
+                            display: block;
+                            text-align: center;
+                        }
+
+                        #cmsmasters_icon_6602e7d31c76b2_45450849 .cmsmasters_simple_icon {
+                            border-width: 0px;
+                            width: 120px;
+                            height: 120px;
+                            font-size: 60px;
+                            line-height: 120px;
+                            text-align: center;
+                            -webkit-border-radius: 50%;
+                            border-radius: 50%;
+                            color: #53d572;
+                        }
+                    </style>
+                    <div id="cmsmasters_row_6602e7d2e749c2_38948502" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_first">
+                                            <div class="cmsmasters_slider">
+                                                <script type="text/javascript">
+                                                    jQuery(function() {
+                                                        _initLayerSlider('#layerslider_1_13d5fwljolz4u', {
+                                                            sliderVersion: '6.1.6',
+                                                            type: 'fullwidth',
+                                                            responsiveUnder: 0,
+                                                            layersContainer: 0,
+                                                            allowFullscreen: true,
+                                                            hideOnMobile: true,
+                                                            hideUnder: 768,
+                                                            hideOver: 100000,
+                                                            pauseOnHover: 1,
+                                                            skin: 'v5',
+                                                            sliderFadeInDuration: 350,
+                                                            showCircleTimer: false,
+                                                            useSrcset: true,
+                                                            skinsPath: 'https://eco-press.cmsmasters.net/wp-content/plugins/LayerSlider/assets/static/layerslider/skins/',
+                                                            performanceMode: true
+                                                        });
+                                                    });
+                                                </script>
+                                                <div id="layerslider_1_13d5fwljolz4u" class="ls-wp-container fitvidsignore" style="width:1920px;height:780px;margin:0 auto;margin-bottom: 0px;">
+                                                    <div class="ls-slide" data-ls="duration:4000;"><img fetchpriority="high" decoding="async" width="1920" height="870" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1.jpg" class="ls-bg" alt="" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1.jpg 1920w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-300x136.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-768x348.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-1024x464.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-580x263.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-860x390.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-1160x526.jpg 1160w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide1-1440x653.jpg 1440w"
+                                                            sizes="(max-width: 1920px) 100vw, 1920px" />
+                                                        <h4 style="font-weight: 600; letter-spacing: 0.06em;font-family:lato;font-size:18px;color:#ffffff;top:250px;left:275px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">WE FIGHT FOR THE FUTURE:</h4>
+                                                        <h1 style="font-weight: 300;font-family:lato;font-size:72px;color:#ffffff;top:315px;left:275px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Go green today,</h1>
+                                                        <h1 style="font-weight: 300;font-family:lato;font-size:72px;color:#ffffff;top:400px;left:275px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">save the world tomorrow!</h1>
+                                                        <a style="" class="ls-l" href="https://eco-press.cmsmasters.net/about-us/" target="_self" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">
+                                                            <h4 style="font-weight: 700; letter-spacing: 0.05em;padding-right:40px;padding-left:40px;font-family:lato;font-size:13px;line-height:49px;color:#343434;background:#ffffff;border-radius:25px;top:555px;left:275px;"
+                                                                class=" cmsms_layer_button book ls-text-layer">FIND OUT MORE</h4>
+                                                        </a>
+                                                        <a style="" class="ls-l" href="https://eco-press.cmsmasters.net/campaigns/" target="_self" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">
+                                                            <h4 style="font-weight: 700; letter-spacing: 0.05em;padding-right:40px;padding-left:40px;font-family:lato;font-size:13px;line-height:49px;color:#ffffff;background:#53d572;border-radius:25px;top:555px;left:485px;"
+                                                                class=" cmsms_layer_button booklearn ls-text-layer">GET INVOLVED!</h4>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ls-slide" data-ls="duration:4000;"><img decoding="async" width="1920" height="780" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1.jpg" class="ls-bg" alt="" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1.jpg 1920w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-300x122.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-768x312.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-1024x416.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-580x236.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-860x349.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-1160x471.jpg 1160w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide2-1-1440x585.jpg 1440w"
+                                                            sizes="(max-width: 1920px) 100vw, 1920px" />
+                                                        <p style="font-weight: 300;font-family:lato;font-size:95px;color:#ffffff;top:260px;left:980px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">So...</p>
+                                                        <p style="font-weight: 500;font-family:lato;font-size:95px;color:#ffffff;top:260px;left:1155px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Do you</p>
+                                                        <p style="font-weight: 600;font-family:lato;font-size:95px;color:#65e685;top:360px;left:1205px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">plant</p>
+                                                        <p style="font-weight: 300;font-family:lato;font-size:95px;color:#ffffff;top:360px;left:1448px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">often</p>
+                                                        <p style="font-weight: 400;font-family:lato;font-size:160px;color:#65e685;top:295px;left:1672px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">?</p>
+                                                        <p style="font-weight: 300;font-family:lato;font-size:24px;color:#ffffff;top:520px;left:980px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Donec fringilla, justo quam sodales a vehicula ipsum libero<br> eget mi. Integer condimentum, nibh aliquet fringilla.</p>
+                                                    </div>
+                                                    <div class="ls-slide" data-ls="duration:4000;"><img decoding="async" width="1920" height="780" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1.jpg" class="ls-bg" alt="" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1.jpg 1920w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-300x122.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-768x312.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-1024x416.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-580x236.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-860x349.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-1160x471.jpg 1160w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/07/slide3-1-1440x585.jpg 1440w"
+                                                            sizes="(max-width: 1920px) 100vw, 1920px" />
+                                                        <p style="font-weight: 500;font-family:lato;font-size:72px;color:#ffffff;top:300px;left:510px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Go green,</p>
+                                                        <p style="font-weight: 300;font-family:lato;font-size:72px;color:#ffffff;top:300px;left:830px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">there is no planet B</p>
+                                                        <p style="font-weight: 300;font-family:lato;font-size:22px;color:rgba(255, 255, 255, 0.8);top:418px;left:450px;" class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi. Integer condimentum, nibh aliquet fringilla.</p>
+                                                        <p style="font-weight: 300;font-family:lato;font-size:22px;color:rgba(255, 255, 255, 0.8);top:455px;left:655px;"
+                                                            class="ls-l ls-text-layer" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi.</p>
+                                                        <a style="" class="ls-l" href="https://eco-press.cmsmasters.net/projects/" target="_self" data-ls="offsetxin:80;offsetxout:-80;durationout:400;parallaxlevel:0;">
+                                                            <h4 style=" letter-spacing: 0.05em;padding-right:40px;padding-left:40px;font-family:lato;font-size:13px;line-height:49px;color:#ffffff;background:#53d572;border-radius:25px;top:550px;left:867px;"
+                                                                class=" cmsms_layer_button booklearn ls-text-layer">GET INVOLVED!</h4>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <svg class="size-6 shrink-0 stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                                </div>
-                            </a>
-
-                            <a
-                                href="https://laracasts.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M24 8.25a.5.5 0 0 0-.5-.5H.5a.5.5 0 0 0-.5.5v12a2.5 2.5 0 0 0 2.5 2.5h19a2.5 2.5 0 0 0 2.5-2.5v-12Zm-7.765 5.868a1.221 1.221 0 0 1 0 2.264l-6.626 2.776A1.153 1.153 0 0 1 8 18.123v-5.746a1.151 1.151 0 0 1 1.609-1.035l6.626 2.776ZM19.564 1.677a.25.25 0 0 0-.177-.427H15.6a.106.106 0 0 0-.072.03l-4.54 4.543a.25.25 0 0 0 .177.427h3.783c.027 0 .054-.01.073-.03l4.543-4.543ZM22.071 1.318a.047.047 0 0 0-.045.013l-4.492 4.492a.249.249 0 0 0 .038.385.25.25 0 0 0 .14.042h5.784a.5.5 0 0 0 .5-.5v-2a2.5 2.5 0 0 0-1.925-2.432ZM13.014 1.677a.25.25 0 0 0-.178-.427H9.101a.106.106 0 0 0-.073.03l-4.54 4.543a.25.25 0 0 0 .177.427H8.4a.106.106 0 0 0 .073-.03l4.54-4.543ZM6.513 1.677a.25.25 0 0 0-.177-.427H2.5A2.5 2.5 0 0 0 0 3.75v2a.5.5 0 0 0 .5.5h1.4a.106.106 0 0 0 .073-.03l4.54-4.543Z"/></g></svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laracasts</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
-
-                            <a
-                                href="https://laravel-news.com"
-                                class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]"
-                            >
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g fill="#FF2D20"><path d="M8.75 4.5H5.5c-.69 0-1.25.56-1.25 1.25v4.75c0 .69.56 1.25 1.25 1.25h3.25c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25Z"/><path d="M24 10a3 3 0 0 0-3-3h-2V2.5a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2V20a3.5 3.5 0 0 0 3.5 3.5h17A3.5 3.5 0 0 0 24 20V10ZM3.5 21.5A1.5 1.5 0 0 1 2 20V3a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 .5.5v17c0 .295.037.588.11.874a.5.5 0 0 1-.484.625L3.5 21.5ZM22 20a1.5 1.5 0 1 1-3 0V9.5a.5.5 0 0 1 .5-.5H21a1 1 0 0 1 1 1v10Z"/><path d="M12.751 6.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 7.3v-.5a.75.75 0 0 1 .751-.753ZM12.751 10.047h2a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-2A.75.75 0 0 1 12 11.3v-.5a.75.75 0 0 1 .751-.753ZM4.751 14.047h10a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-10A.75.75 0 0 1 4 15.3v-.5a.75.75 0 0 1 .751-.753ZM4.75 18.047h7.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-.75.75h-7.5A.75.75 0 0 1 4 19.3v-.5a.75.75 0 0 1 .75-.753Z"/></g></svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Laravel News</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </p>
-                                </div>
-
-                                <svg class="size-6 shrink-0 self-center stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
-                            </a>
-
-                            <div class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800">
-                                <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
-                                    <svg class="size-5 sm:size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <g fill="#FF2D20">
-                                            <path
-                                                d="M16.597 12.635a.247.247 0 0 0-.08-.237 2.234 2.234 0 0 1-.769-1.68c.001-.195.03-.39.084-.578a.25.25 0 0 0-.09-.267 8.8 8.8 0 0 0-4.826-1.66.25.25 0 0 0-.268.181 2.5 2.5 0 0 1-2.4 1.824.045.045 0 0 0-.045.037 12.255 12.255 0 0 0-.093 3.86.251.251 0 0 0 .208.214c2.22.366 4.367 1.08 6.362 2.118a.252.252 0 0 0 .32-.079 10.09 10.09 0 0 0 1.597-3.733ZM13.616 17.968a.25.25 0 0 0-.063-.407A19.697 19.697 0 0 0 8.91 15.98a.25.25 0 0 0-.287.325c.151.455.334.898.548 1.328.437.827.981 1.594 1.619 2.28a.249.249 0 0 0 .32.044 29.13 29.13 0 0 0 2.506-1.99ZM6.303 14.105a.25.25 0 0 0 .265-.274 13.048 13.048 0 0 1 .205-4.045.062.062 0 0 0-.022-.07 2.5 2.5 0 0 1-.777-.982.25.25 0 0 0-.271-.149 11 11 0 0 0-5.6 2.815.255.255 0 0 0-.075.163c-.008.135-.02.27-.02.406.002.8.084 1.598.246 2.381a.25.25 0 0 0 .303.193 19.924 19.924 0 0 1 5.746-.438ZM9.228 20.914a.25.25 0 0 0 .1-.393 11.53 11.53 0 0 1-1.5-2.22 12.238 12.238 0 0 1-.91-2.465.248.248 0 0 0-.22-.187 18.876 18.876 0 0 0-5.69.33.249.249 0 0 0-.179.336c.838 2.142 2.272 4 4.132 5.353a.254.254 0 0 0 .15.048c1.41-.01 2.807-.282 4.117-.802ZM18.93 12.957l-.005-.008a.25.25 0 0 0-.268-.082 2.21 2.21 0 0 1-.41.081.25.25 0 0 0-.217.2c-.582 2.66-2.127 5.35-5.75 7.843a.248.248 0 0 0-.09.299.25.25 0 0 0 .065.091 28.703 28.703 0 0 0 2.662 2.12.246.246 0 0 0 .209.037c2.579-.701 4.85-2.242 6.456-4.378a.25.25 0 0 0 .048-.189 13.51 13.51 0 0 0-2.7-6.014ZM5.702 7.058a.254.254 0 0 0 .2-.165A2.488 2.488 0 0 1 7.98 5.245a.093.093 0 0 0 .078-.062 19.734 19.734 0 0 1 3.055-4.74.25.25 0 0 0-.21-.41 12.009 12.009 0 0 0-10.4 8.558.25.25 0 0 0 .373.281 12.912 12.912 0 0 1 4.826-1.814ZM10.773 22.052a.25.25 0 0 0-.28-.046c-.758.356-1.55.635-2.365.833a.25.25 0 0 0-.022.48c1.252.43 2.568.65 3.893.65.1 0 .2 0 .3-.008a.25.25 0 0 0 .147-.444c-.526-.424-1.1-.917-1.673-1.465ZM18.744 8.436a.249.249 0 0 0 .15.228 2.246 2.246 0 0 1 1.352 2.054c0 .337-.08.67-.23.972a.25.25 0 0 0 .042.28l.007.009a15.016 15.016 0 0 1 2.52 4.6.25.25 0 0 0 .37.132.25.25 0 0 0 .096-.114c.623-1.464.944-3.039.945-4.63a12.005 12.005 0 0 0-5.78-10.258.25.25 0 0 0-.373.274c.547 2.109.85 4.274.901 6.453ZM9.61 5.38a.25.25 0 0 0 .08.31c.34.24.616.561.8.935a.25.25 0 0 0 .3.127.631.631 0 0 1 .206-.034c2.054.078 4.036.772 5.69 1.991a.251.251 0 0 0 .267.024c.046-.024.093-.047.141-.067a.25.25 0 0 0 .151-.23A29.98 29.98 0 0 0 15.957.764a.25.25 0 0 0-.16-.164 11.924 11.924 0 0 0-2.21-.518.252.252 0 0 0-.215.076A22.456 22.456 0 0 0 9.61 5.38Z"
-                                            />
-                                        </g>
-                                    </svg>
-                                </div>
-
-                                <div class="pt-3 sm:pt-5">
-                                    <h2 class="text-xl font-semibold text-black dark:text-white">Vibrant Ecosystem</h2>
-
-                                    <p class="mt-4 text-sm/relaxed">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white dark:focus-visible:ring-[#FF2D20]">Forge</a>, <a href="https://vapor.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Vapor</a>, <a href="https://nova.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Nova</a>, <a href="https://envoyer.io" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Envoyer</a>, and <a href="https://herd.laravel.com" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Herd</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Echo</a>, <a href="https://laravel.com/docs/horizon" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white">Telescope</a>, and more.
-                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </main>
+                    </div>
+                    <div id="cmsmasters_row_6602e7d2f023e5_72471133" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_homepage_icons cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_half">
 
-                    <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </footer>
+                                            </style>
+                                            <div id="cmsmasters_icon_box_6602e7d2f07347_11493529" class="cmsmasters_icon_box cmsmasters_icon_box_left box_icon_type_image ">
+                                                <div class="icon_box_inner">
+                                                    <h4 class="icon_box_heading"></h4>
+                                                    <div class="icon_box_text">
+                                                        <h4>
+                                                            <div id="cmsmasters_divider_6602e7d2f0a969_25945671" class="cl"></div>
+                                                        </h4>
+                                                        <h4><span style="font-size: 13pt;">ALTERNATIVE ENERGY</span></h4>
+                                                        <p>Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi.<br /> Integer condimentum, nibh aliquet fringilla.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="cmsmasters_divider_6602e7d2f0b0c1_79587689" class="cl"></div>
+
+                                            </style>
+                                            <div id="cmsmasters_icon_box_6602e7d2f0d9f3_16786572" class="cmsmasters_icon_box cmsmasters_icon_box_left box_icon_type_image ">
+                                                <div class="icon_box_inner">
+                                                    <h4 class="icon_box_heading"></h4>
+                                                    <div class="icon_box_text">
+                                                        <h4>
+                                                            <div id="cmsmasters_divider_6602e7d2f10e38_45402316" class="cl"></div>
+                                                        </h4>
+                                                        <h4><span style="font-size: 13pt;">SAFE ENVIRONMENT</span></h4>
+                                                        <p>Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi.<br /> Integer condimentum, nibh aliquet fringilla.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cmsmasters_column one_half">
+
+                                            </style>
+                                            <div id="cmsmasters_icon_box_6602e7d2f147f7_04089626" class="cmsmasters_icon_box cmsmasters_icon_box_left box_icon_type_image ">
+                                                <div class="icon_box_inner">
+                                                    <h4 class="icon_box_heading"></h4>
+                                                    <div class="icon_box_text">
+                                                        <h4>
+                                                            <div id="cmsmasters_divider_6602e7d2f17e84_95466381" class="cl"></div>
+                                                        </h4>
+                                                        <h4><span style="font-size: 13pt;">RECYCLE, REUSE, REDUCE</span></h4>
+                                                        <p>Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi.<br /> Integer condimentum, nibh aliquet fringilla.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="cmsmasters_divider_6602e7d2f18560_13383518" class="cl"></div>
+
+                                            </style>
+                                            <div id="cmsmasters_icon_box_6602e7d2f1ada4_27495172" class="cmsmasters_icon_box cmsmasters_icon_box_left box_icon_type_image ">
+                                                <div class="icon_box_inner">
+                                                    <h4 class="icon_box_heading"></h4>
+                                                    <div class="icon_box_text">
+                                                        <h4>
+                                                            <div id="cmsmasters_divider_6602e7d2f1e1d4_05039769" class="cl"></div>
+                                                        </h4>
+                                                        <h4><span style="font-size: 13pt;">CLEAN WATER</span></h4>
+                                                        <p>Donec fringilla, justo quam sodales a vehicula ipsum libero eget mi.<br /> Integer condimentum, nibh aliquet fringilla.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cmsmasters_row_6602e7d2f1ed51_07676530" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_half">
+                                            <div id="cmsmasters_fb_6602e7d2f20212_11801693" class="cmsmasters_featured_block">
+                                                <div class="featured_block_inner">
+                                                    <div class="featured_block_text">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cmsmasters_column one_half">
+                                            <div id="cmsmasters_fb_6602e7d2f24b74_48829986" class="cmsmasters_featured_block cmsmasters_homepage_welcome_section">
+                                                <div class="featured_block_inner">
+                                                    <div class="featured_block_text">
+                                                        <h4><span style="color: #46c965;">non-profit environmental organization</span></h4>
+
+                                                        <div id="cmsmasters_divider_6602e7d2f25c35_38216275" class="cl"></div>
+                                                        <h1><span style="font-size: 42pt;">Welcome</span></h1>
+                                                        <h1><span style="font-size: 42pt;">to Eco Press!</span></h1>
+
+                                                        <div id="cmsmasters_divider_6602e7d2f25f70_21948064" class="cl"></div>
+                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                                                            of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many desktop publishing packages and web page.</p>
+
+                                                        <div id="cmsmasters_divider_6602e7d2f26221_38738459" class="cl"></div>
+                                                        <div id="cmsmasters_button_6602e7d2f265b0_26992555" class="button_wrap"><a href="https://eco-press.cmsmasters.net/about-us/" class="cmsmasters_button"><span>read our story</span></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cmsmasters_row_6602e7d2f26d49_75634798" class="cmsmasters_row cmsmasters_color_scheme_second cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_fullwidth">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner cmsmasters_row_fullwidth">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_first">
+
+                                            <div id="cmsmasters_counters_6602e7d2f28b1" class="cmsmasters_counters counters_type_vertical">
+                                                <div class="cmsmasters_counter_wrap one_fifth">
+                                                    <div id="cmsmasters_counter_6602e7d2f29638_67942095" class="cmsmasters_counter" data-percent="15">
+                                                        <div class="cmsmasters_counter_inner">
+                                                            <span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix"></span>
+                                                            </span>
+                                                            <span class="cmsmasters_counter_title">Years</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cmsmasters_counter_wrap one_fifth">
+                                                    <div id="cmsmasters_counter_6602e7d2f299d5_22248625" class="cmsmasters_counter" data-percent="260">
+                                                        <div class="cmsmasters_counter_inner">
+                                                            <span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix"></span>
+                                                            </span>
+                                                            <span class="cmsmasters_counter_title">Projects</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cmsmasters_counter_wrap one_fifth">
+                                                    <div id="cmsmasters_counter_6602e7d2f29cc3_88508854" class="cmsmasters_counter" data-percent="50000">
+                                                        <div class="cmsmasters_counter_inner">
+                                                            <span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix">$</span>
+                                                            </span>
+                                                            <span class="cmsmasters_counter_title">Collected</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cmsmasters_counter_wrap one_fifth">
+                                                    <div id="cmsmasters_counter_6602e7d2f29fd2_62895669" class="cmsmasters_counter" data-percent="700">
+                                                        <div class="cmsmasters_counter_inner">
+                                                            <span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix">+</span>
+                                                            </span>
+                                                            <span class="cmsmasters_counter_title">Volunteers</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cmsmasters_counter_wrap one_fifth">
+                                                    <div id="cmsmasters_counter_6602e7d2f2a2b6_19113319" class="cmsmasters_counter" data-percent="100">
+                                                        <div class="cmsmasters_counter_inner">
+                                                            <span class="cmsmasters_counter_counter_wrap">
+<span class="cmsmasters_counter_prefix"></span><span class="cmsmasters_counter_counter">0</span><span class="cmsmasters_counter_suffix">%</span>
+                                                            </span>
+                                                            <span class="cmsmasters_counter_title">Devotion</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cmsmasters_row_6602e7d2f2a992_44659659" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_first">
+
+                                            <div id="cmsmasters_heading_6602e7d2f2cd87_57501000" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                                <h1 class="cmsmasters_heading">Featured Campaign</h1>
+                                            </div>
+                                            <div id="cmsmasters_heading_6602e7d2f2de07_93301257" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                                <h1 class="cmsmasters_heading">Every voice counts! Choose campaign, donate and help us change the world</h1>
+                                            </div>
+                                            <div id="featured_campaign_6602e7d2f2e28" class="cmsmasters_featured_campaign">
+
+                                                <!-- Start Vertical Campaign -->
+
+                                                <article id="post-10838" class="post-10838 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns cp-categs-featured">
+                                                    <div class="cmsmasters_campaign_wrap_img">
+                                                        <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="300" height="300" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-300x300.jpg" class="full-width wp-post-image" alt="Into the Green"
+                                                                title="Into the Green" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-300x300.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-150x150.jpg 150w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-60x60.jpg 60w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-180x180.jpg 180w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/featured-440x440.jpg 440w"
+                                                                sizes="(max-width: 300px) 100vw, 300px" />
+                                                            <div class="cmsmasters_img_rollover"><a href="https://eco-press.cmsmasters.net/campaign/into-the-green/" title="Into the Green" class="cmsmasters_open_post_link cmsmasters_theme_icon_image"></a></div>
+                                                        </figure>
+                                                    </div>
+                                                    <div class="cmsmasters_campaign_donated_percent">
+                                                        <div class="cmsmasters_stats stats_mode_bars stats_type_vertical">
+                                                            <div class="cmsmasters_stat_wrap">
+                                                                <div class="cmsmasters_stat_inner_stat_info"><span class="cmsmasters_stat_counter_wrap"><span class="cmsmasters_stat_counter">8</span><span class="cmsmasters_stat_units">%</span><span class="cmsmasters_stat_title">Donated</span></span>
+                                                                </div>
+                                                                <div class="cmsmasters_stat_container">
+                                                                    <div id="cmsmasters_stat_6602e7d300a61" class="cmsmasters_stat" data-percent="8">
+                                                                        <div class="cmsmasters_stat_inner"><span class="cmsmasters_stat_counter_wrap"><span class="cmsmasters_stat_counter">8</span><span class="cmsmasters_stat_units">%</span></span>
+                                                                        </div><canvas height="140" width="140"></canvas></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cmsmasters_campaign_cont">
+                                                        <div class="cmsmasters_campaign_wrap_heading">
+                                                            <header class="cmsmasters_campaign_header entry-header">
+                                                                <h2 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/into-the-green/">Into the Green</a></h2>
+                                                            </header><span class="cmsmasters_campaign_rest_amount">$ 11000 To Go</span> </div>
+                                                        <div class="cmsmasters_campaign_content entry-content">
+                                                            <p>Cras dapibus ullamcorper dictum. Vivamus nec erat placerat felis scelerisque porttitor in ac turpis. In nec imperdiet turpis. Suspendisse quis orci ut orci pulvinar eleifend. Nulla eu mattis
+                                                                ipsum. Integer eget sagittis nulla. Praesent consectetur lacus et maximus eleifend. Integer non lacus dui. Mauris tortor diam, laoreet quis commodo vitae, sodales vel augue.</p>
+                                                        </div>
+                                                        <div class="cmsmasters_campaign_donate_button">
+                                                            <div class="cmsmasters_campaign_donate_button_inner"><a class="button" href="https://eco-press.cmsmasters.net/donate-confirmation/?campaign_id=10838">Donate Now</a></div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                                <!-- Finish Vertical Campaign -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cmsmasters_row_6602e7d3011df5_35828566" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_fundraising_campaigns cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed" data-stellar-background-ratio="0.5">
+                        <div class="cmsmasters_row_outer_parent">
+                            <div class="cmsmasters_row_outer">
+                                <div class="cmsmasters_row_inner">
+                                    <div class="cmsmasters_row_margin">
+                                        <div class="cmsmasters_column one_first">
+
+                                            <div id="cmsmasters_heading_6602e7d3016f00_90903947" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                                                <h2 class="cmsmasters_heading">Fundraising Campaigns</h2>
+                                            </div>
+                                            <div class="cmsmasters_campaigns">
+                                                <script type="text/javascript">
+                                                    jQuery(document).ready(function() {
+                                                        var container = jQuery('.cmsmasters_slider_6602e7d301746');
+                                                        containerWidth = container.width(),
+                                                            firstPost = container.find('article'),
+                                                            postMinWidth = Number(firstPost.css('minWidth').replace('px', '')),
+                                                            postThreeColumns = (postMinWidth * 4) - 1;
+                                                        postTwoColumns = (postMinWidth * 3) - 1;
+                                                        postOneColumns = (postMinWidth * 2) - 1;
+
+
+                                                        jQuery('.cmsmasters_slider_6602e7d301746').owlCarousel({
+                                                            items: 4,
+                                                            itemsDesktop: false,
+                                                            itemsDesktopSmall: [postThreeColumns, 3],
+                                                            itemsTablet: [postTwoColumns, 2],
+                                                            itemsMobile: [postOneColumns, 1],
+                                                            transitionStyle: false,
+                                                            rewindNav: true,
+                                                            slideSpeed: 200,
+                                                            paginationSpeed: 800,
+                                                            rewindSpeed: 1000,
+                                                            autoPlay: 5000,
+                                                            stopOnHover: true,
+                                                            autoHeight: true,
+                                                            addClassActive: true,
+                                                            responsiveBaseWidth: '.cmsmasters_slider_6602e7d301746',
+                                                            pagination: false,
+                                                            navigation: true,
+                                                            navigationText: ["<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>"]
+                                                        });
+                                                    });
+                                                </script>
+                                                <div id="cmsmasters_owl_carousel_6602e7d301746" class="cmsmasters_owl_slider cmsmasters_slider_6602e7d301746">
+                                                    <div>
+                                                        <!-- Start Horizontal Campaign -->
+
+                                                        <article id="post-10806" class="post-10806 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                                            <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/plant-challenge/" title="Plant Challenge" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-580x490.jpg" class="full-width wp-post-image" alt="Plant Challenge" title="Plant Challenge" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/1-1.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                                            <div
+                                                                class="cmsmasters_campaign_inner">
+                                                                <header class="cmsmasters_campaign_header entry-header">
+                                                                    <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/plant-challenge/">Plant Challenge</a></h3>
+                                                                </header>
+                                                                <div class="cmsmasters_campaign_donated_percent">
+                                                                    <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                                        <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 9000 to go</span>
+                                                                            <div id="cmsmasters_stat_6602e7d3044f9" class="cmsmasters_stat" data-percent="10">
+                                                                                <div class="cmsmasters_stat_inner"></div>
+                                                                            </div>
+                                                                            <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">10</span><span class="cmsmasters_stat_units">%</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                    </article>
+                                                    <!-- Finish Horizontal Campaign -->
+
+                                                </div>
+                                                <div>
+                                                    <!-- Start Horizontal Campaign -->
+
+                                                    <article id="post-10824" class="post-10824 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                                        <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/recycling-is-the-way/" title="Recycling is the Way" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-580x490.jpg" class="full-width wp-post-image" alt="Recycling is the Way" title="Recycling is the Way" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/2-1.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                                        <div
+                                                            class="cmsmasters_campaign_inner">
+                                                            <header class="cmsmasters_campaign_header entry-header">
+                                                                <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/recycling-is-the-way/">Recycling is the Way</a></h3>
+                                                            </header>
+                                                            <div class="cmsmasters_campaign_donated_percent">
+                                                                <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                                    <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 7350 to go</span>
+                                                                        <div id="cmsmasters_stat_6602e7d3057d0" class="cmsmasters_stat" data-percent="10">
+                                                                            <div class="cmsmasters_stat_inner"></div>
+                                                                        </div>
+                                                                        <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">10</span><span class="cmsmasters_stat_units">%</span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                                </article>
+                                                <!-- Finish Horizontal Campaign -->
+
+                                            </div>
+                                            <div>
+                                                <!-- Start Horizontal Campaign -->
+
+                                                <article id="post-10826" class="post-10826 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                                    <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/safe-energy/" title="Safe Energy" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-580x490.jpg" class="full-width wp-post-image" alt="Safe Energy" title="Safe Energy" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/3-1.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                                    <div
+                                                        class="cmsmasters_campaign_inner">
+                                                        <header class="cmsmasters_campaign_header entry-header">
+                                                            <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/safe-energy/">Safe Energy</a></h3>
+                                                        </header>
+                                                        <div class="cmsmasters_campaign_donated_percent">
+                                                            <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                                <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 11800 to go</span>
+                                                                    <div id="cmsmasters_stat_6602e7d306cdf" class="cmsmasters_stat" data-percent="5">
+                                                                        <div class="cmsmasters_stat_inner"></div>
+                                                                    </div>
+                                                                    <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">5</span><span class="cmsmasters_stat_units">%</span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                            </div>
+                                            </article>
+                                            <!-- Finish Horizontal Campaign -->
+
+                                        </div>
+                                        <div>
+                                            <!-- Start Horizontal Campaign -->
+
+                                            <article id="post-10828" class="post-10828 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                                <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/forest-animals-rescue/" title="Forest Animals Rescue" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-580x490.jpg" class="full-width wp-post-image" alt="Forest Animals Rescue" title="Forest Animals Rescue" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/4-1.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                                <div
+                                                    class="cmsmasters_campaign_inner">
+                                                    <header class="cmsmasters_campaign_header entry-header">
+                                                        <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/forest-animals-rescue/">Forest Animals Rescue</a></h3>
+                                                    </header>
+                                                    <div class="cmsmasters_campaign_donated_percent">
+                                                        <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                            <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 1300 to go</span>
+                                                                <div id="cmsmasters_stat_6602e7d308210" class="cmsmasters_stat" data-percent="48">
+                                                                    <div class="cmsmasters_stat_inner"></div>
+                                                                </div>
+                                                                <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">48</span><span class="cmsmasters_stat_units">%</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                        </article>
+                                        <!-- Finish Horizontal Campaign -->
+
+                                    </div>
+                                    <div>
+                                        <!-- Start Horizontal Campaign -->
+
+                                        <article id="post-10830" class="post-10830 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                            <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/home-for-everyone/" title="Home for Everyone" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-580x490.jpg" class="full-width wp-post-image" alt="Home for Everyone" title="Home for Everyone" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/5-1.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                            <div
+                                                class="cmsmasters_campaign_inner">
+                                                <header class="cmsmasters_campaign_header entry-header">
+                                                    <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/home-for-everyone/">Home for Everyone</a></h3>
+                                                </header>
+                                                <div class="cmsmasters_campaign_donated_percent">
+                                                    <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                        <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 10350 to go</span>
+                                                            <div id="cmsmasters_stat_6602e7d309700" class="cmsmasters_stat" data-percent="8">
+                                                                <div class="cmsmasters_stat_inner"></div>
+                                                            </div>
+                                                            <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">8</span><span class="cmsmasters_stat_units">%</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                    </article>
+                                    <!-- Finish Horizontal Campaign -->
+
+                                </div>
+                                <div>
+                                    <!-- Start Horizontal Campaign -->
+
+                                    <article id="post-10832" class="post-10832 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                        <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/go-green-movement/" title="Go Green Movement" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-580x490.jpg" class="full-width wp-post-image" alt="Go Green Movement" title="Go Green Movement" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/6.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                        <div
+                                            class="cmsmasters_campaign_inner">
+                                            <header class="cmsmasters_campaign_header entry-header">
+                                                <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/go-green-movement/">Go Green Movement</a></h3>
+                                            </header>
+                                            <div class="cmsmasters_campaign_donated_percent">
+                                                <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                    <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 3650 to go</span>
+                                                        <div id="cmsmasters_stat_6602e7d30ac31" class="cmsmasters_stat" data-percent="18">
+                                                            <div class="cmsmasters_stat_inner"></div>
+                                                        </div>
+                                                        <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">18</span><span class="cmsmasters_stat_units">%</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                </div>
+                                </article>
+                                <!-- Finish Horizontal Campaign -->
+
+                            </div>
+                            <div>
+                                <!-- Start Horizontal Campaign -->
+
+                                <article id="post-10834" class="post-10834 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                    <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/environment-friendly/" title="Environment Friendly" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-580x490.jpg" class="full-width wp-post-image" alt="Environment Friendly" title="Environment Friendly" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/7.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                    <div
+                                        class="cmsmasters_campaign_inner">
+                                        <header class="cmsmasters_campaign_header entry-header">
+                                            <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/environment-friendly/">Environment Friendly</a></h3>
+                                        </header>
+                                        <div class="cmsmasters_campaign_donated_percent">
+                                            <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                                <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 2300 to go</span>
+                                                    <div id="cmsmasters_stat_6602e7d30bf9e" class="cmsmasters_stat" data-percent="23">
+                                                        <div class="cmsmasters_stat_inner"></div>
+                                                    </div>
+                                                    <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">23</span><span class="cmsmasters_stat_units">%</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                            </article>
+                            <!-- Finish Horizontal Campaign -->
+
+                        </div>
+                        <div>
+                            <!-- Start Horizontal Campaign -->
+
+                            <article id="post-10836" class="post-10836 campaign type-campaign status-publish has-post-thumbnail hentry cp-categs-campaigns">
+                                <figure class="cmsmasters_img_wrap"><a href="https://eco-press.cmsmasters.net/campaign/greenpress-community/" title="GreenPress Community" class="cmsmasters_img_link preloader cmsmasters_theme_icon_money"><img loading="lazy" decoding="async" width="580" height="490" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-580x490.jpg" class="full-width wp-post-image" alt="GreenPress Community" title="GreenPress Community" srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-580x489.jpg 580w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-300x253.jpg 300w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-768x647.jpg 768w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-1024x863.jpg 1024w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8-860x725.jpg 860w, https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/8.jpg 1035w" sizes="(max-width: 580px) 100vw, 580px" /></a></figure>
+                                <div
+                                    class="cmsmasters_campaign_inner">
+                                    <header class="cmsmasters_campaign_header entry-header">
+                                        <h3 class="cmsmasters_campaign_title entry-title"><a href="https://eco-press.cmsmasters.net/campaign/greenpress-community/">GreenPress Community</a></h3>
+                                    </header>
+                                    <div class="cmsmasters_campaign_donated_percent">
+                                        <div class="cmsmasters_stats stats_mode_bars stats_type_horizontal">
+                                            <div class="cmsmasters_stat_wrap"><span class="cmsmasters_stat_subtitle">$ 16800 to go</span>
+                                                <div id="cmsmasters_stat_6602e7d30d326" class="cmsmasters_stat" data-percent="6">
+                                                    <div class="cmsmasters_stat_inner"></div>
+                                                </div>
+                                                <div class="cmsmasters_stat_title_wrap"><span class="cmsmasters_stat_title">Donated</span><span class="cmsmasters_stat_counter">6</span><span class="cmsmasters_stat_units">%</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        </article>
+                        <!-- Finish Horizontal Campaign -->
+
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d30d52f9_07865841" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_homepage_become_volunteer cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+
+                            <div id="cmsmasters_button_6602e7d30d6f81_35792107" class="button_wrap"><a href="#" class="cmsmasters_button"><span>become a volunteer</span></a></div>
+
+                            <div id="cmsmasters_heading_6602e7d30d82d5_16157820" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                                <h2 class="cmsmasters_heading">Do you care about the Earth like we do? Get involved!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d30d8937_66607962" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+
+                            <div id="cmsmasters_heading_6602e7d30dd261_13864804" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                <h4 class="cmsmasters_heading">“water is everything” conference</h4>
+                            </div>
+                            <div id="cmsmasters_heading_6602e7d30de385_21260853" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                <h1 class="cmsmasters_heading">Why should people care about</h1>
+                            </div>
+                            <div id="cmsmasters_heading_6602e7d30df431_33068308" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                <h1 class="cmsmasters_heading">water conservation?</h1>
+                            </div>
+                            <div id="cmsmasters_button_6602e7d30df9b5_67231848" class="button_wrap"><a href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/" class="cmsmasters_button"><span>find out more</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d30dfff7_30861147" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_latest_news cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+
+                            <div id="cmsmasters_heading_6602e7d30e1872_22432112" class="cmsmasters_heading_wrap cmsmasters_heading_align_left">
+                                <h1 class="cmsmasters_heading">Latest News</h1>
+                            </div>
+                            <div class="cmsmasters_posts_slider post">
+                                <script type="text/javascript">
+                                    jQuery(document).ready(function() {
+                                        var container = jQuery('.cmsmasters_slider_6602e7d30e279');
+                                        containerWidth = container.width(),
+                                            firstPost = container.find('article'),
+                                            postMinWidth = Number(firstPost.css('minWidth').replace('px', '')),
+                                            postThreeColumns = (postMinWidth * 4) - 1;
+                                        postTwoColumns = (postMinWidth * 3) - 1;
+                                        postOneColumns = (postMinWidth * 2) - 1;
+
+
+                                        jQuery('.cmsmasters_slider_6602e7d30e279').owlCarousel({
+                                            items: 3,
+                                            itemsDesktop: false,
+                                            itemsDesktopSmall: [postThreeColumns, 3],
+                                            itemsTablet: [postTwoColumns, 2],
+                                            itemsMobile: [postOneColumns, 1],
+                                            transitionStyle: false,
+                                            rewindNav: true,
+                                            slideSpeed: 200,
+                                            paginationSpeed: 800,
+                                            rewindSpeed: 1000,
+                                            autoPlay: 5000,
+                                            stopOnHover: true,
+                                            autoHeight: true,
+                                            addClassActive: true,
+                                            responsiveBaseWidth: '.cmsmasters_slider_6602e7d30e279',
+                                            pagination: false,
+                                            navigation: true,
+                                            navigationText: ["<span class=\"cmsmasters_prev_arrow\"><span></span></span>", "<span class=\"cmsmasters_next_arrow\"><span></span></span>"]
+                                        });
+                                    });
+                                </script>
+                                <div id="cmsmasters_owl_carousel_6602e7d30e279" class="cmsmasters_owl_slider cmsmasters_slider_6602e7d30e279">
+                                    <div>
+                                        <!-- Start Image Article -->
+
+                                        <article id="post-8036" class="cmsmasters_slider_post post-8036 post type-post status-publish format-image has-post-thumbnail hentry category-enviroment category-news tag-donation tag-eco tag-environment tag-nature post_format-post-format-image">
+                                            <div class="cmsmasters_slider_post_outer">
+                                                <div class="cmsmasters_slider_post_date_img_wrap">
+                                                    <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/10/1-1-860x516.jpg" class="full-width wp-post-image" alt="Interview with a Panda Bear"
+                                                            title="Interview with a Panda Bear" />
+                                                        <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/10/05/interview-with-a-panda-bear/" title="Interview with a Panda Bear" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                                    </figure>
+                                                    <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="October 5, 2015">Oct 05, 2015</abbr><abbr class="dn date updated" title="December 20, 2023">December 20, 2023</abbr></span>
+                                                        <div
+                                                            class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(8036); return false;" id="cmsmastersLike-8036" class="cmsmastersLike cmsmasters_theme_icon_like"><span>11</span></a>
+                                                            </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/10/05/interview-with-a-panda-bear/#respond" title="Comment on Interview with a Panda Bear"><span>0</span></a>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cmsmasters_slider_post_inner">
+                                                <header class="cmsmasters_slider_post_header entry-header">
+                                                    <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/10/05/interview-with-a-panda-bear/">Interview with a Panda Bear</a></h3>
+                                                </header>
+                                                <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/enviroment/" class="cmsmasters_cat_color cmsmasters_cat_34" rel="category tag">Enviroment</a>, <a href="https://eco-press.cmsmasters.net/category/news/" class="cmsmasters_cat_color cmsmasters_cat_10" rel="category tag">News</a></span></div>
+                                                <div
+                                                    class="cmsmasters_slider_post_content entry-content">
+                                                    <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                            </div>
+                                            <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/10/05/interview-with-a-panda-bear/">Read More</a></footer>
+                                    </div>
+                                </div>
+                                </article>
+                                <!-- Finish Image Article -->
+
+                            </div>
+                            <div>
+                                <!-- Start Image Article -->
+
+                                <article id="post-106" class="cmsmasters_slider_post post-106 post type-post status-publish format-image has-post-thumbnail hentry category-nature tag-eco tag-ecology tag-environment tag-nature post_format-post-format-image">
+                                    <div class="cmsmasters_slider_post_outer">
+                                        <div class="cmsmasters_slider_post_date_img_wrap">
+                                            <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/10/2-1-860x516.jpg" class="full-width wp-post-image" alt="Spring Melody" title="Spring Melody"
+                                                />
+                                                <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/10/28/modern-home-construction-technique/" title="Spring Melody" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                            </figure>
+                                            <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="October 28, 2015">Oct 28, 2015</abbr><abbr class="dn date updated" title="August 12, 2016">August 12, 2016</abbr></span>
+                                                <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(106); return false;" id="cmsmastersLike-106" class="cmsmastersLike cmsmasters_theme_icon_like"><span>10</span></a>
+                                                    </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/10/28/modern-home-construction-technique/#respond" title="Comment on Spring Melody"><span>0</span></a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cmsmasters_slider_post_inner">
+                                            <header class="cmsmasters_slider_post_header entry-header">
+                                                <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/10/28/modern-home-construction-technique/">Spring Melody</a></h3>
+                                            </header>
+                                            <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/nature/" class="cmsmasters_cat_color cmsmasters_cat_36" rel="category tag">Nature</a></span></div>
+                                            <div class="cmsmasters_slider_post_content entry-content">
+                                                <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                            </div>
+                                            <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/10/28/modern-home-construction-technique/">Read More</a></footer>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Finish Image Article -->
+
+                            </div>
+                            <div>
+                                <!-- Start Image Article -->
+
+                                <article id="post-1965" class="cmsmasters_slider_post post-1965 post type-post status-publish format-image has-post-thumbnail hentry category-ecology post_format-post-format-image">
+                                    <div class="cmsmasters_slider_post_outer">
+                                        <div class="cmsmasters_slider_post_date_img_wrap">
+                                            <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/3-2-860x516.jpg" class="full-width wp-post-image" alt="Protect the Environment"
+                                                    title="Protect the Environment" />
+                                                <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/08/protect-the-environment/" title="Protect the Environment" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                            </figure>
+                                            <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 8, 2015">Nov 08, 2015</abbr><abbr class="dn date updated" title="August 12, 2016">August 12, 2016</abbr></span>
+                                                <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(1965); return false;" id="cmsmastersLike-1965" class="cmsmastersLike cmsmasters_theme_icon_like"><span>15</span></a>
+                                                    </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/08/protect-the-environment/#respond" title="Comment on Protect the Environment"><span>0</span></a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cmsmasters_slider_post_inner">
+                                            <header class="cmsmasters_slider_post_header entry-header">
+                                                <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/08/protect-the-environment/">Protect the Environment</a></h3>
+                                            </header>
+                                            <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/ecology/" class="cmsmasters_cat_color cmsmasters_cat_35" rel="category tag">Ecology</a></span></div>
+                                            <div class="cmsmasters_slider_post_content entry-content">
+                                                <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                            </div>
+                                            <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/08/protect-the-environment/">Read More</a></footer>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- Finish Image Article -->
+
+                            </div>
+                            <div>
+                                <!-- Start Image Article -->
+
+                                <article id="post-85" class="cmsmasters_slider_post post-85 post type-post status-publish format-image has-post-thumbnail hentry category-enviroment category-nature tag-eco tag-ecology tag-environment tag-organic post_format-post-format-image">
+                                    <div class="cmsmasters_slider_post_outer">
+                                        <div class="cmsmasters_slider_post_date_img_wrap">
+                                            <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/4-2-860x516.jpg" class="full-width wp-post-image" alt="New Plants Developed" title="New Plants Developed"
+                                                />
+                                                <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/10/new-plants-developed/" title="New Plants Developed" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                            </figure>
+                                            <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 10, 2015">Nov 10, 2015</abbr><abbr class="dn date updated" title="August 12, 2016">August 12, 2016</abbr></span>
+                                                <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(85); return false;" id="cmsmastersLike-85" class="cmsmastersLike cmsmasters_theme_icon_like"><span>19</span></a>
+                                                    </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/10/new-plants-developed/#comments" title="Comment on New Plants Developed"><span>1</span></a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cmsmasters_slider_post_inner">
+                                            <header class="cmsmasters_slider_post_header entry-header">
+                                                <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/10/new-plants-developed/">New Plants Developed</a></h3>
+                                            </header>
+                                            <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/enviroment/" class="cmsmasters_cat_color cmsmasters_cat_34" rel="category tag">Enviroment</a>, <a href="https://eco-press.cmsmasters.net/category/nature/" class="cmsmasters_cat_color cmsmasters_cat_36" rel="category tag">Nature</a></span></div>
+                                            <div
+                                                class="cmsmasters_slider_post_content entry-content">
+                                                <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                        </div>
+                                        <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/10/new-plants-developed/">Read More</a></footer>
+                                    </div>
+                            </div>
+                            </article>
+                            <!-- Finish Image Article -->
+
+                        </div>
+                        <div>
+                            <!-- Start Standard Article -->
+
+                            <article id="post-87" class="cmsmasters_slider_post post-87 post type-post status-publish format-standard has-post-thumbnail hentry category-ecology category-news tag-charity tag-donation tag-ecology tag-nature">
+                                <div class="cmsmasters_slider_post_outer">
+                                    <div class="cmsmasters_slider_post_date_img_wrap">
+                                        <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/5-860x516.jpg" class="full-width wp-post-image" alt="Eco Ideas" title="Eco Ideas" />
+                                            <div
+                                                class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/" title="Eco Ideas" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                    </figure>
+                                    <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 15, 2015">Nov 15, 2015</abbr><abbr class="dn date updated" title="March 1, 2019">March 1, 2019</abbr></span>
+                                        <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(87); return false;" id="cmsmastersLike-87" class="cmsmastersLike cmsmasters_theme_icon_like"><span>24</span></a>
+                                            </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/#respond" title="Comment on Eco Ideas"><span>0</span></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cmsmasters_slider_post_inner">
+                                    <header class="cmsmasters_slider_post_header entry-header">
+                                        <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/">Eco Ideas</a></h3>
+                                    </header>
+                                    <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/ecology/" class="cmsmasters_cat_color cmsmasters_cat_35" rel="category tag">Ecology</a>, <a href="https://eco-press.cmsmasters.net/category/news/" class="cmsmasters_cat_color cmsmasters_cat_10" rel="category tag">News</a></span></div>
+                                    <div
+                                        class="cmsmasters_slider_post_content entry-content">
+                                        <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                </div>
+                                <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/">Read More</a></footer>
+                        </div>
+                    </div>
+                    </article>
+                    <!-- Finish Standard Article -->
+
+                </div>
+                <div>
+                    <!-- Start Image Article -->
+
+                    <article id="post-285" class="cmsmasters_slider_post post-285 post type-post status-publish format-image has-post-thumbnail hentry category-ecology tag-eco tag-ecology tag-nature tag-recycle post_format-post-format-image">
+                        <div class="cmsmasters_slider_post_outer">
+                            <div class="cmsmasters_slider_post_date_img_wrap">
+                                <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/6-860x516.jpg" class="full-width wp-post-image" alt="The Ozone Layer" title="The Ozone Layer"
+                                    />
+                                    <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/20/the-ozone-layer/" title="The Ozone Layer" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                </figure>
+                                <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 20, 2015">Nov 20, 2015</abbr><abbr class="dn date updated" title="August 12, 2016">August 12, 2016</abbr></span>
+                                    <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(285); return false;" id="cmsmastersLike-285" class="cmsmastersLike cmsmasters_theme_icon_like"><span>20</span></a>
+                                        </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/20/the-ozone-layer/#respond" title="Comment on The Ozone Layer"><span>0</span></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cmsmasters_slider_post_inner">
+                                <header class="cmsmasters_slider_post_header entry-header">
+                                    <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/20/the-ozone-layer/">The Ozone Layer</a></h3>
+                                </header>
+                                <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/ecology/" class="cmsmasters_cat_color cmsmasters_cat_35" rel="category tag">Ecology</a></span></div>
+                                <div class="cmsmasters_slider_post_content entry-content">
+                                    <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                </div>
+                                <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/20/the-ozone-layer/">Read More</a></footer>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Finish Image Article -->
+
+                </div>
+                <div>
+                    <!-- Start Image Article -->
+
+                    <article id="post-103" class="cmsmasters_slider_post post-103 post type-post status-publish format-image has-post-thumbnail hentry category-nature tag-donation tag-environment tag-organic post_format-post-format-image">
+                        <div class="cmsmasters_slider_post_outer">
+                            <div class="cmsmasters_slider_post_date_img_wrap">
+                                <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/7-860x516.jpg" class="full-width wp-post-image" alt="Saving Your Future" title="Saving Your Future"
+                                    />
+                                    <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/23/saving-your-future/" title="Saving Your Future" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                </figure>
+                                <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 23, 2015">Nov 23, 2015</abbr><abbr class="dn date updated" title="August 12, 2016">August 12, 2016</abbr></span>
+                                    <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(103); return false;" id="cmsmastersLike-103" class="cmsmastersLike cmsmasters_theme_icon_like"><span>20</span></a>
+                                        </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/23/saving-your-future/#respond" title="Comment on Saving Your Future"><span>0</span></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cmsmasters_slider_post_inner">
+                                <header class="cmsmasters_slider_post_header entry-header">
+                                    <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/23/saving-your-future/">Saving Your Future</a></h3>
+                                </header>
+                                <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/nature/" class="cmsmasters_cat_color cmsmasters_cat_36" rel="category tag">Nature</a></span></div>
+                                <div class="cmsmasters_slider_post_content entry-content">
+                                    <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                                </div>
+                                <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/23/saving-your-future/">Read More</a></footer>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Finish Image Article -->
+
+                </div>
+                <div>
+                    <!-- Start Image Article -->
+
+                    <article id="post-2938" class="cmsmasters_slider_post post-2938 post type-post status-publish format-image has-post-thumbnail hentry category-enviroment category-nature tag-eco tag-ecology tag-nature tag-recycle post_format-post-format-image">
+                        <div class="cmsmasters_slider_post_outer">
+                            <div class="cmsmasters_slider_post_date_img_wrap">
+                                <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/8-860x516.jpg" class="full-width wp-post-image" alt="Change Your Habits" title="Change Your Habits"
+                                    />
+                                    <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2015/11/27/change-your-habits/" title="Change Your Habits" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                                </figure>
+                                <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="November 27, 2015">Nov 27, 2015</abbr><abbr class="dn date updated" title="December 13, 2016">December 13, 2016</abbr></span>
+                                    <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(2938); return false;" id="cmsmastersLike-2938" class="cmsmastersLike cmsmasters_theme_icon_like"><span>22</span></a>
+                                        </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2015/11/27/change-your-habits/#comments" title="Comment on Change Your Habits"><span>1</span></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cmsmasters_slider_post_inner">
+                                <header class="cmsmasters_slider_post_header entry-header">
+                                    <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2015/11/27/change-your-habits/">Change Your Habits</a></h3>
+                                </header>
+                                <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/enviroment/" class="cmsmasters_cat_color cmsmasters_cat_34" rel="category tag">Enviroment</a>, <a href="https://eco-press.cmsmasters.net/category/nature/" class="cmsmasters_cat_color cmsmasters_cat_36" rel="category tag">Nature</a></span></div>
+                                <div
+                                    class="cmsmasters_slider_post_content entry-content">
+                                    <p> Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                            </div>
+                            <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2015/11/27/change-your-habits/">Read More</a></footer>
+                        </div>
+                </div>
+                </article>
+                <!-- Finish Image Article -->
+
+            </div>
+            <div>
+                <!-- Start Image Article -->
+
+                <article id="post-10736" class="cmsmasters_slider_post post-10736 post type-post status-publish format-image has-post-thumbnail hentry category-enviroment category-nature tag-eco tag-ecology tag-nature tag-recycle post_format-post-format-image">
+                    <div class="cmsmasters_slider_post_outer">
+                        <div class="cmsmasters_slider_post_date_img_wrap">
+                            <figure class="cmsmasters_img_rollover_wrap preloader"><img loading="lazy" decoding="async" width="860" height="516" src="https://eco-press.cmsmasters.net/wp-content/uploads/2016/06/9-860x516.jpg" class="full-width wp-post-image" alt="Recycling Materials" title="Recycling Materials"
+                                />
+                                <div class="cmsmasters_no_rollover"><a href="https://eco-press.cmsmasters.net/2016/06/06/recycling-materials/" title="Recycling Materials" class="cmsmasters_open_link cmsmasters_theme_icon_image"></a></div>
+                            </figure>
+                            <div class="cmsmasters_slider_post_date_top_meta_wrap"><span class="cmsmasters_slider_post_date"><abbr class="published" title="June 6, 2016">Jun 06, 2016</abbr><abbr class="dn date updated" title="March 5, 2019">March 5, 2019</abbr></span>
+                                <div class="cmsmasters_slider_post_social_wrap"><span class="cmsmasters_likes cmsmasters_slider_post_likes"><a href="#" onclick="cmsmasters_like(10736); return false;" id="cmsmastersLike-10736" class="cmsmastersLike cmsmasters_theme_icon_like"><span>18</span></a>
+                                    </span><span class="cmsmasters_comments cmsmasters_slider_post_comments"><a class="cmsmasters_theme_icon_comment" href="https://eco-press.cmsmasters.net/2016/06/06/recycling-materials/#respond" title="Comment on Recycling Materials"><span>0</span></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cmsmasters_slider_post_inner">
+                            <header class="cmsmasters_slider_post_header entry-header">
+                                <h3 class="cmsmasters_slider_post_title entry-title"><a href="https://eco-press.cmsmasters.net/2016/06/06/recycling-materials/">Recycling Materials</a></h3>
+                            </header>
+                            <div class="cmsmasters_slider_post_cont_info entry-meta"><span class="cmsmasters_slider_post_category">In <a href="https://eco-press.cmsmasters.net/category/enviroment/" class="cmsmasters_cat_color cmsmasters_cat_34" rel="category tag">Enviroment</a>, <a href="https://eco-press.cmsmasters.net/category/nature/" class="cmsmasters_cat_color cmsmasters_cat_36" rel="category tag">Nature</a></span></div>
+                            <div
+                                class="cmsmasters_slider_post_content entry-content">
+                                <p>Best building company with talented team for any occassion. Lorem imsup dolor sit amet. Providing high quality service and expertise eget sagittis.</p>
+                        </div>
+                        <footer class="cmsmasters_slider_post_footer entry-meta"><a class="cmsmasters_slider_post_read_more" href="https://eco-press.cmsmasters.net/2016/06/06/recycling-materials/">Read More</a></footer>
+                    </div>
+            </div>
+            </article>
+            <!-- Finish Image Article -->
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d31ab0e1_66371508" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+
+                            <div id="cmsmasters_heading_6602e7d31b06f3_69161021" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                <h4 class="cmsmasters_heading">FEATURED VIDEO FROM OUR PARTNERS</h4>
+                            </div>
+                            <div id="cmsmasters_heading_6602e7d31b18d2_10841885" class="cmsmasters_heading_wrap cmsmasters_heading_align_center">
+                                <h1 class="cmsmasters_heading">Imagine the Future</h1>
+                            </div>
+                            <div class="cmsmasters_text">
+                                <p style="text-align: center;"><span style="color: #ffffff;">It is a long established fact that a reader will be distracted by the readable content of a</span><br />
+                                    <span style="color: #ffffff;"> page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or</span><br />
+                                    <span style="color: #ffffff;">-less normal distribution of letters, as opposed to using.</span></p>
+                            </div>
+
+                            <div id="cmsmasters_divider_6602e7d31b2316_72926163" class="cl"></div>
+                            <div class="aligncenter">
+                                <div class="cmsmasters_img  cmsmasters_image_c">
+                                    <a href="https://vimeo.com/73875240" rel="ilightbox"><img decoding="async" src="https://eco-press.cmsmasters.net/wp-content/uploads/2018/12/play.png" alt="play" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d31b57d0_06049377" class="cmsmasters_row cmsmasters_color_scheme_first cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+                            <div class="cmsmasters_sidebar sidebar_layout_14141414">
+                                <aside id="text-2" class="widget widget_text">
+                                    <h3 class="widgettitle">About Us</h3>
+                                    <div class="textwidget"><img loading="lazy" decoding="async" src="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/Depositphotos_26348281_original.png" alt="Depositphotos_26348281_original" width="320" height="215" class="aligncenter size-full wp-image-11262"
+                                            srcset="https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/Depositphotos_26348281_original.png 320w, https://eco-press.cmsmasters.net/wp-content/uploads/2015/11/Depositphotos_26348281_original-300x202.png 300w"
+                                            sizes="(max-width: 320px) 100vw, 320px" /><br> It is a long established fact that a reader will be distracted by the readable content of a when looking at its layout of using.</div>
+                                </aside>
+                                <aside id="text-3" class="widget widget_text">
+                                    <div class="textwidget">
+                                        <div class="widget_pages">
+                                            <h3 class="widgettitle">Campaigns</h3>
+                                            <ul>
+                                                <li><a href="#">Save the Earth</a></li>
+                                                <li><a href="#">Solution against Pollution</a></li>
+                                                <li><a href="#">Forest Animals Rescue</a></li>
+                                                <li><a href="#">Energy Revolution</a></li>
+                                                <li><a href="#">Plant a Plant Challenge</a></li>
+                                                <li><a href="#">Recycling is The Way</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </aside>
+                                <aside id="tag_cloud-2" class="widget widget_tag_cloud">
+                                    <h3 class="widgettitle">Tags Cloud</h3>
+                                    <div class="tagcloud"><a href="https://eco-press.cmsmasters.net/tag/charity/" class="tag-cloud-link tag-link-65 tag-link-position-1" style="font-size: 8pt;" aria-label="charity (1 item)">charity</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/donation/" class="tag-cloud-link tag-link-64 tag-link-position-2" style="font-size: 15.636363636364pt;" aria-label="donation (3 items)">donation</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/eco/" class="tag-cloud-link tag-link-58 tag-link-position-3" style="font-size: 22pt;" aria-label="eco (6 items)">eco</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/ecology/" class="tag-cloud-link tag-link-60 tag-link-position-4" style="font-size: 22pt;" aria-label="ecology (6 items)">ecology</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/environment/" class="tag-cloud-link tag-link-62 tag-link-position-5" style="font-size: 18.181818181818pt;" aria-label="environment (4 items)">environment</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/nature/" class="tag-cloud-link tag-link-61 tag-link-position-6" style="font-size: 22pt;" aria-label="nature (6 items)">nature</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/organic/" class="tag-cloud-link tag-link-63 tag-link-position-7" style="font-size: 12.581818181818pt;" aria-label="organic (2 items)">organic</a>
+                                        <a href="https://eco-press.cmsmasters.net/tag/recycle/" class="tag-cloud-link tag-link-59 tag-link-position-8" style="font-size: 15.636363636364pt;" aria-label="recycle (3 items)">recycle</a></div>
+                                </aside>
+                                <aside id="recent-posts-2" class="widget widget_recent_entries">
+                                    <h3 class="widgettitle">Recent Posts</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2016/06/06/recycling-materials/">Recycling Materials</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/27/change-your-habits/">Change Your Habits</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/23/saving-your-future/">Saving Your Future</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/20/the-ozone-layer/">The Ozone Layer</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/15/eco-ideas/">Eco Ideas</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/10/new-plants-developed/">New Plants Developed</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/11/08/protect-the-environment/">Protect the Environment</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eco-press.cmsmasters.net/2015/10/28/modern-home-construction-technique/">Spring Melody</a>
+                                        </li>
+                                    </ul>
+
+                                </aside>
+                                <div class="cl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cmsmasters_row_6602e7d31c4964_30542282" class="cmsmasters_row cmsmasters_color_scheme_footer cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+        <div class="cmsmasters_row_outer_parent">
+            <div class="cmsmasters_row_outer">
+                <div class="cmsmasters_row_inner">
+                    <div class="cmsmasters_row_margin">
+                        <div class="cmsmasters_column one_first">
+                            <div class="cmsmasters_sidebar sidebar_layout_131313">
+                                <aside id="text-4" class="widget widget_text">
+                                    <div class="textwidget">
+                                        <div id="cmsmasters_icon_6602e7d31c6285_12153759" class="cmsmasters_icon_wrap"><span class="cmsmasters_simple_icon cmsmasters-icon-phone-alt"></span></div>
+
+                                        <p style="text-align: center; font-size: 18px;">1-800-123-1234</p>
+                                    </div>
+                                </aside>
+                                <aside id="text-5" class="widget widget_text">
+                                    <div class="textwidget">
+                                        <div id="cmsmasters_icon_6602e7d31c6d29_12807951" class="cmsmasters_icon_wrap"><span class="cmsmasters_simple_icon cmsmasters-icon-location-3"></span></div>
+
+                                        <p style="text-align: center; font-size: 18px;">Brooklyn, NY 10036, United States</p>
+                                    </div>
+                                </aside>
+                                <aside id="text-6" class="widget widget_text">
+                                    <div class="textwidget">
+                                        <div id="cmsmasters_icon_6602e7d31c76b2_45450849" class="cmsmasters_icon_wrap"><span class="cmsmasters_simple_icon cmsmasters-icon-mail-3"></span></div>
+
+                                        <p style="text-align: center; font-size: 18px;">example@green-press.com</p>
+                                    </div>
+                                </aside>
+                                <div class="cl"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cl"></div>
+    <div class="content_wrap fullwidth">
+
+        <div class="middle_content entry"></div>
+        <!-- Finish Content -->
+
+
+
+    </div>
+    </div>
+    </div>
+
+
+    <!--  Finish Middle -->
+    <a href="javascript:void(0);" id="slide_top" class="cmsmasters_theme_icon_slide_top"></a>
+    </div>
+    <!--  Finish Main -->
+
+    <!--  Start Footer -->
+    <footer id="footer" class="cmsmasters_color_scheme_footer cmsmasters_footer_small">
+        <div class="footer_inner">
+            <div class="footer_inner_wrap">
+                <div class="footer_nav_wrap">
+                    <nav>
+                        <div class="menu-footer-navigation-container">
+                            <ul id="footer_nav" class="footer_nav">
+                                <li id="menu-item-10692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10692"><a href="https://eco-press.cmsmasters.net/about-us/">About the company</a></li>
+                                <li id="menu-item-10691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10691"><a href="https://eco-press.cmsmasters.net/detailed-price-list/">Detailed pricing</a></li>
+                                <li id="menu-item-10690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10690"><a href="https://eco-press.cmsmasters.net/contact-us/">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div> <span class="footer_copyright copyright">
+				<a class="privacy-policy-link" href="https://eco-press.cmsmasters.net/privacy-policy/" rel="privacy-policy">Privacy Policy</a> / This is a sample website - cmsmasters © 2024 / All Rights Reserved			</span>
+            </div>
+        </div>
+    </footer>
+    <!--  Finish Footer -->
+
+
+    </div>
+    <span class="cmsmasters_responsive_width"></span>
+    <!--  Finish Page -->
+
+
+    <script>
+        window.RS_MODULES = window.RS_MODULES || {};
+        window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+        window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+        window.RS_MODULES.defered = true;
+        window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+        window.RS_MODULES.type = 'compiled';
+    </script>
+    <!--googleoff: all-->
+    <div id="cookie-law-info-bar" data-nosnippet="true"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish. <a role='button' data-cli_action="accept" id="cookie_action_close_header" class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button wt-cli-accept-btn">Accept</a></span></div>
+    <div
+        id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Privacy &amp; Cookies Policy</span></div>
+        <div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+            <div class="cli-modal-dialog" role="document">
+                <div class="cli-modal-content cli-bar-popup">
+                    <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Close</span>
+		  </button>
+                    <div class="cli-modal-body">
+                        <div class="cli-container-fluid cli-tab-container">
+                            <div class="cli-row">
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                                    <div class="cli-privacy-overview">
+                                        <h4>Privacy Overview</h4>
+                                        <div class="cli-privacy-content">
+                                            <div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the
+                                                working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your
+                                                consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+                                        </div>
+                                        <a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a> </div>
+                                </div>
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+                                            <div class="wt-cli-necessary-checkbox">
+                                                <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked" />
+                                                <label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+                                            </div>
+                                            <span class="cli-necessary-caption">Always Enabled</span>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="necessary">
+                                                <div class="wt-cli-cookie-description">
+                                                    Necessary cookies are absolutely essential for the website to function properly. This category only includes cookies that ensures basic functionalities and security features of the website. These cookies do not store any personal information. </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cli-tab-section">
+                                        <div class="cli-tab-header">
+                                            <a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="non-necessary" data-toggle="cli-toggle-tab">
+								Non-necessary							</a>
+                                            <div class="cli-switch">
+                                                <input type="checkbox" id="wt-cli-checkbox-non-necessary" class="cli-user-preference-checkbox" data-id="checkbox-non-necessary" checked='checked' />
+                                                <label for="wt-cli-checkbox-non-necessary" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Non-necessary</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="cli-tab-content">
+                                            <div class="cli-tab-pane cli-fade" data-id="non-necessary">
+                                                <div class="wt-cli-cookie-description">
+                                                    Any cookies that may not be particularly necessary for the website to function and is used specifically to collect user personal data via analytics, ads, other embedded contents are termed as non-necessary cookies. It is mandatory to procure user consent
+                                                    prior to running these cookies on your website. </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cli-modal-footer">
+                        <div class="wt-cli-element cli-container-fluid cli-tab-container">
+                            <div class="cli-row">
+                                <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                                    <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+
+                                        <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+        <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+        <!--googleon: all-->
+        <script>
+            (function(body) {
+                'use strict';
+                body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+            })(document.body);
+        </script>
+        <script>
+            /* <![CDATA[ */
+            var tribe_l10n_datatables = {
+                "aria": {
+                    "sort_ascending": ": activate to sort column ascending",
+                    "sort_descending": ": activate to sort column descending"
+                },
+                "length_menu": "Show _MENU_ entries",
+                "empty_table": "No data available in table",
+                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                "info_empty": "Showing 0 to 0 of 0 entries",
+                "info_filtered": "(filtered from _MAX_ total entries)",
+                "zero_records": "No matching records found",
+                "search": "Search:",
+                "all_selected_text": "All items on this page were selected. ",
+                "select_all_link": "Select all pages",
+                "clear_selection": "Clear Selection.",
+                "pagination": {
+                    "all": "All",
+                    "next": "Next",
+                    "previous": "Previous"
+                },
+                "select": {
+                    "rows": {
+                        "0": "",
+                        "_": ": Selected %d rows",
+                        "1": ": Selected 1 row"
+                    }
+                },
+                "datepicker": {
+                    "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                    "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                    "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                    "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                    "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                    "nextText": "Next",
+                    "prevText": "Prev",
+                    "currentText": "Today",
+                    "closeText": "Done",
+                    "today": "Today",
+                    "clear": "Clear"
+                }
+            }; /* ]]> */
+        </script>
+        <script type='text/javascript'>
+            (function() {
+                var c = document.body.className;
+                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                document.body.className = c;
+            })();
+        </script>
+        <link rel='stylesheet' id='rs-plugin-settings-css' href='https://eco-press.cmsmasters.net/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.20' type='text/css' media='all' />
+        <style id='rs-plugin-settings-inline-css' type='text/css'>
+            #rs-demo-id {}
+        </style>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/cmsmasters-mega-menu/js/jquery.megaMenu.js?ver=1.2.7" id="megamenu-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.2" id="swv-js"></script>
+        <script type="text/javascript" id="contact-form-7-js-extra">
+            /* <![CDATA[ */
+            var wpcf7 = {
+                "api": {
+                    "root": "https:\/\/eco-press.cmsmasters.net\/wp-json\/",
+                    "namespace": "contact-form-7\/v1"
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.2" id="contact-form-7-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.20" defer async id="tp-tools-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.20" defer async id="revmin-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.6.1" id="sourcebuster-js-js"></script>
+        <script type="text/javascript" id="wc-order-attribution-js-extra">
+            /* <![CDATA[ */
+            var wc_order_attribution = {
+                "params": {
+                    "lifetime": 1.0e-5,
+                    "session": 30,
+                    "ajaxurl": "https:\/\/eco-press.cmsmasters.net\/wp-admin\/admin-ajax.php",
+                    "prefix": "wc_order_attribution_",
+                    "allowTracking": true
+                },
+                "fields": {
+                    "source_type": "current.typ",
+                    "referrer": "current_add.rf",
+                    "utm_campaign": "current.cmp",
+                    "utm_source": "current.src",
+                    "utm_medium": "current.mdm",
+                    "utm_content": "current.cnt",
+                    "utm_id": "current.id",
+                    "utm_term": "current.trm",
+                    "session_entry": "current_add.ep",
+                    "session_start_time": "current_add.fd",
+                    "session_pages": "session.pgs",
+                    "session_count": "udata.vst",
+                    "user_agent": "udata.uag"
+                }
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.6.1" id="wc-order-attribution-js"></script>
+        <script type="text/javascript" id="jLibs-js-extra">
+            /* <![CDATA[ */
+            var cmsmasters_jlibs = {
+                "button_height": "-21"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jqueryLibraries.min.js?ver=1.0.0" id="jLibs-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/scrollspy.js?ver=1.0.0" id="cmsmasters-scrollspy-js"></script>
+        <script type="text/javascript" id="script-js-extra">
+            /* <![CDATA[ */
+            var cmsmasters_script = {
+                "theme_url": "https:\/\/eco-press.cmsmasters.net\/wp-content\/themes\/eco-press",
+                "site_url": "https:\/\/eco-press.cmsmasters.net\/",
+                "ajaxurl": "https:\/\/eco-press.cmsmasters.net\/wp-admin\/admin-ajax.php",
+                "nonce_ajax_like": "9de6d0dbe7",
+                "primary_color": "#53d572",
+                "ilightbox_skin": "dark",
+                "ilightbox_path": "vertical",
+                "ilightbox_infinite": "0",
+                "ilightbox_aspect_ratio": "1",
+                "ilightbox_mobile_optimizer": "1",
+                "ilightbox_max_scale": "1",
+                "ilightbox_min_scale": "0.2",
+                "ilightbox_inner_toolbar": "0",
+                "ilightbox_smart_recognition": "0",
+                "ilightbox_fullscreen_one_slide": "0",
+                "ilightbox_fullscreen_viewport": "center",
+                "ilightbox_controls_toolbar": "1",
+                "ilightbox_controls_arrows": "0",
+                "ilightbox_controls_fullscreen": "1",
+                "ilightbox_controls_thumbnail": "1",
+                "ilightbox_controls_keyboard": "1",
+                "ilightbox_controls_mousewheel": "1",
+                "ilightbox_controls_swipe": "1",
+                "ilightbox_controls_slideshow": "0",
+                "ilightbox_close_text": "Close",
+                "ilightbox_enter_fullscreen_text": "Enter Fullscreen (Shift+Enter)",
+                "ilightbox_exit_fullscreen_text": "Exit Fullscreen (Shift+Enter)",
+                "ilightbox_slideshow_text": "Slideshow",
+                "ilightbox_next_text": "Next",
+                "ilightbox_previous_text": "Previous",
+                "ilightbox_load_image_error": "An error occurred when trying to load photo.",
+                "ilightbox_load_contents_error": "An error occurred when trying to load contents.",
+                "ilightbox_missing_plugin_error": "The content your are attempting to view requires the <a href='{pluginspage}' target='_blank'>{type} plugin<\\\/a>."
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jquery.script.js?ver=1.0.0" id="script-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jquery.tweet.min.js?ver=1.3.1" id="twitter-js"></script>
+        <script type="text/javascript" id="cmsmasters-woo-script-js-extra">
+            /* <![CDATA[ */
+            var cmsmasters_woo_script = {
+                "currency_symbol": "\u00a3",
+                "thumbnail_image_width": "60",
+                "thumbnail_image_height": "60"
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-content/themes/eco-press/js/jquery.cmsmasters-woo-script.js?ver=1.0.0" id="cmsmasters-woo-script-js"></script>
+        <script type="text/javascript" src="https://eco-press.cmsmasters.net/wp-includes/js/comment-reply.min.js?ver=6.4.3" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+</body>
+
 </html>
